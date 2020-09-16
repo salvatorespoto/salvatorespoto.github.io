@@ -6,6 +6,10 @@ name: Salvatore Francesco Spoto
 # Build settings
 markdown: kramdown
 
+#List of interesting Github repo/projects to include - optional
+github:
+ - salvatorespoto/gltfViewer.github.io
+ 
 #User specific content
 #Links that will appear in the navbar
 primarylinks:
@@ -96,9 +100,7 @@ education:
    subject: Artificial Intelligence and Computer Science
    school: University of Birmingham
 
-#List of interesting Github repo/projects to include - optional
-github:
- - salvatorespoto/gltfViewer.github.io
+
  
 #Stackoverflow flair is optional
 #stackoverflow:
