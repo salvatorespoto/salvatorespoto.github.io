@@ -9,16 +9,16 @@ markdown: kramdown
 #User specific content
 #Links that will appear in the navbar
 primarylinks:
- - title: Blog
-   url: https://automateddeveloper.blogspot.com/
- - title: GitHub
-   url: https://github.com/robhinds
- - title: StackOverflow
-   url: https://stackoverflow.com/users/258813/rhinds
- - title: DZone
-   url: https://dzone.com/users/899489/rhinds.html
- - title: LinkedIn
-   url: https://www.linkedin.com/pub/rob-hinds/21/361/3b1
+# - title: Blog
+#   url: https://automateddeveloper.blogspot.com/
+# - title: GitHub
+#   url: https://github.com/robhinds
+# - title: StackOverflow
+#   url: https://stackoverflow.com/users/258813/rhinds
+# - title: DZone
+#   url: https://dzone.com/users/899489/rhinds.html
+# - title: LinkedIn
+#   url: https://www.linkedin.com/pub/rob-hinds/21/361/3b1
 
 #Any buzzword skills you want to include
 skills:
@@ -44,27 +44,12 @@ skills:
 
 #Work experience is required
 roles:
- - title: CTO
-   start: 2017
-   end: Ongoing
-   employer: Basement Crowd
-   description: Legaltech startup producing a range of innovative legal products. Products include <a href="https://www.juriosity.com" taget="_blank">Juriosity</a>, <a href="https://www.fromcounsel.com" taget="_blank">FromCounsel</a>, <a href="https://www.sparqa.com" taget="_blank">Sparqa</a>.
- - title: Senior Engineer
+ - title: Java back-end developer
    start: 2016
-   end: 2017
-   employer: Emerald Street Ventures
-   description: Emerald Street Ventures was established as an incubator vehicle for the development of a number of software and legal-tech projects, and a rapidly growing, London-based start-up using innovative technologies to revolutionise and change the software and legal-tech landscape. Working with a range of cutting edge technologies and techniques including Scala, Cassandra, CoreOS, a variety of Machine Learning techniques.
- - title: Senior Engineer
-   start: 2012
-   end: 2016
-   employer: Covestor
-   description: Covestor is an investment marketplace startup that was successfully acquired by Interactive Brokers in 2015. <br/> Working as a senior engineer, I worked closely with the CTO and across the full-stack, I was involved in all aspects of the technology including the website and back-end services.
- - title: Associate Manager
-   start: 2005
-   end: 2012
-   employer: Accenture
-   description: Working on a range of functional and technical roles, primarily working on client sites in Financial Services in London and Europe.
-
+   end: 2020
+   employer: Synthesis3
+   description: Synthesis3 is a company that manly develop software realeated to the automotive field, serving big clients like Iveco or FTP Powertrain. I worked manly as Java Spring back-developer, but developed also some front-end parts if needed. 
+ - 
 #Education is required
 education:
  - level: Bachelor of Science (B.Sc.)
