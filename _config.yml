@@ -22,24 +22,25 @@ primarylinks:
 
 #Any buzzword skills you want to include
 skills:
- - Scala
- - Akka-http
- - Microservices
- - Slick
- - Product management
- - API design
- - Groovy
- - Spring MVC/Boot/Social
- - Gradle
- - Java
- - JPA
- - SQL
- - REST
- - Technical Architecture
- - Machine learning
-
+ - C++ 17
+ - Direct3D 12
+ - HLSL
+ - PIX
+ - Visual Studio
+ - Math 
+ - OpenGL
+ - GLSL
+ - Visual Studio Code
+ - Java 9
+ - Java Spring
+ - Eclipse
+ - MySQL / PostgreSQL / SQL
+ - Javascript
+ - HTML
+ - CSS
+ 
 #Blogfeed is optional - including this will add JS to call the feed and populate blog list
-blogfeed: https://automateddeveloper.blogspot.com/feeds/posts/default?alt=json
+#blogfeed: https://automateddeveloper.blogspot.com/feeds/posts/default?alt=json
 
 #Work experience is required
 roles:
