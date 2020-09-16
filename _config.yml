@@ -8,7 +8,7 @@ markdown: kramdown
 
 #List of interesting Github repo/projects to include - optional
 github:
- - salvatorespoto/gltfViewer.github.io
+ - https://github.com/salvatorespoto/GLTFViewer
  
 #User specific content
 #Links that will appear in the navbar
