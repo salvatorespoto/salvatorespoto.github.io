@@ -31,74 +31,79 @@ skills:
  - OpenGL
  - GLSL
  - Visual Studio Code
- - Java 9
+ - Java
  - Java Spring
  - Eclipse
  - MySQL / PostgreSQL / SQL
  - Javascript
  - HTML
  - CSS
+ - Photoshop
  
 #Blogfeed is optional - including this will add JS to call the feed and populate blog list
 #blogfeed: https://automateddeveloper.blogspot.com/feeds/posts/default?alt=json
 
 #Work experience is required
 roles:
+ - title: C++
+   start: 2020
+   end: now
+   description: 
  - title: Java back-end developer
    start: 2016
    end: 2020
    employer: Synthesis3
    description: Synthesis3 is a company that manly develop software realeated to the automotive field, serving big clients like Iveco or FTP Powertrain. I worked manly as Java Spring back-developer, but developed also some front-end parts if needed. 
- - 
+ - title: Full stack developer - Angular and PHP
+   start: 2015
+   end: 2016
+   employer: JumpOn
+   description: JumpOn was a start-up who provided mobility as a service. I worked bot as front-end Angular developer that back-end PHP developer.
+ - title: Front-end developer
+   start: 2015
+   end: 2016
+   employer: I.See
+   description: I.See is a company that develop Radioterapy Treatment Planning System software. As front end programmer I developed the user interface to visualize the TAC scans and define interactvely the treatment plan.
+ - title: Generalist programmer
+   start: 2013
+   end: 2015
+   employer: University of Turin
+   description: As contract researcher I develop in collaboration with several research team I developed software in the field of social netwrok, recommending system and streamibng.
+ - title: Full stack developer - Javascript, PHP
+   start: 2013
+   end: 2015
+   employer: Institut National de Recherche, France
+   description: Development of mobile applciation that implements cistize cervses
+ - title: C++ OpenGL Developer
+   start: 2013
+   end: 2015
+   employer: Institut National de Recherche, France
+   description: As contract researcher I develop in collaboration with several research team I developed software in the field of social netwrok, recommending system and streamibng.
+ - title: C++  Developer
+   start: 2001
+   end: 2002
+   employer: Telecom Italia Lab
+   description: As contract researcher I develop in collaboration with several research team I developed software in the field of social netwrok, recommending system and streamibng.
+ 
 #Education is required
 education:
- - level: Bachelor of Science (B.Sc.)
-   date: 2003
+ - level: Ph.D Computer Science
+   date: 2011
+   subject: Artificial Intelligence and Computer Science
+   school: University of Birmingham
+ - level: Master Degree in Computer Science
+   date: 2004
    subject: Artificial Intelligence and Computer Science
    school: University of Birmingham
 
-#This section is optional (as is the image link below)
-coursera:
-   profileurl: https://www.coursera.org/user/i/c6362b4056f755a04bef6a791a62102b
-   courses:
-    - title: Functional Programming Principles in Scala
-      link: https://www.coursera.org/course/progfun
-      optionalimage: https://d1z850dzhxs7de.cloudfront.net/topics/progfun/small-icon.hover.png
-      date: September 16, 2013
-    - title: Algorithms Design and Analysis, Part 1
-      link: https://www.coursera.org/specializations/algorithms
-      optionalimage: https://d1z850dzhxs7de.cloudfront.net/topics/algo/small-icon.hover.png
-      date: April 28, 2014
-
-#This section is optional - embeds slideshows from speakerdeck
-# to get the speakerdeck ID copy the embed code and look for the data-it attribute
-speakerdeck:
-   profileurl: https://speakerdeck.com/robhinds
-   talks:
-    - title: Product Management for Engineers
-      speakerdeckId: 94f0070c4e434ec79fe9b4eb2cb574e0
-      conference: API Conference, Berlin 2018
-    - title: Agile Machine Learning - from Theory to Production
-      speakerdeckId: ec84f2f56e9743afb0675b1eeeb6b6ce
-      conference: W-JAX Conference, Munich 2017 (London 2017)
-
 #List of interesting Github repo/projects to include - optional
 github:
- - salvatorespoto/robhinds.github.io
- - robhinds/ScaLambda
- - robhinds/opinionated-akka-http
- - robhinds/food2vec
- - robhinds/microservices
- - robhinds/spring-social-geeklist
- - robhinds/spring-social-stackoverflow
- - robhinds/genotype
- - robhinds/footweets
- - robhinds/ElasticSearchGradle
-
+ - salvatorespoto/gltfViewer.github.io
+ 
 #Stackoverflow flair is optional
-stackoverflow:
-   profileurl: https://stackoverflow.com/users/258813/rhinds
-   flairimageurl: https://stackoverflow.com/users/flair/258813.png
+#stackoverflow:
+#   profileurl: https://stackoverflow.com/users/258813/rhinds
+#   flairimageurl: https://stackoverflow.com/users/flair/258813.png
 
 intro: |
   I am a computer scientist and a passionate software developer with more than 20 years of experience working in technology. <br/><br/>
@@ -109,10 +114,5 @@ intro: |
 additionalinfo: |
    <strong>C++</strong>: Currently I am developing my projects using C++ 17. I worked in the past on projects that used previous versions of the language, both at University and at Private companies <br/>
    <strong>Java</strong>: I worked I am experienced in a variety of Java API’s and frameworks. I have worked with Spring 4, Spring Boot, JPA (Hibernate and EclipseLink) in addition to others. <br/><br/>
-   <strong>Groovy</strong> I have used Groovy as a language in production for ~4 years and I am familiar with many of the languages features (such as writing <a target='_blank' href="https://dzone.com/articles/functional-programming-groovy">Functional Programming style groovy</a>) and quirks (such as <a target="_blank" href="https://dzone.com/articles/groovy-retrospective-an-addendum-memory-usage-perm">memory leak issues</a>). <br/><br/>
-   <strong>Cloud platforms</strong>: I have primarily used AWS for running production apps on the cloud. I have experience setting up, configuring and running applications using a range of AWS offerings, including EC2, RDS, S3, Cogito, <a target="_blank" href="https://automateddeveloper.blogspot.com/2018/05/serverless-with-aws-lambda-scala.html">Lambda</a> and its more recent <a target="_blank" href="https://automateddeveloper.blogspot.com/2018/10/machine-learning-with-aws-scala.html">Machine Learning capabilities</a>.<br/><br/>
-   <strong>Web Development</strong>: Through building web applications, I have also worked with various client side technology, having used jQuery, Bootstrap, LESS, SASS, Backbone/Underscore/Require. More recently I have written React applications (primarily using the Create React App framework, and extending them)<br/><br/>
-   <strong>Development Control</strong>: I have a good knowledge of application life-cycle management and have worked with SVN, Git, Maven, Gradle, Sonar, Jenkins, TeamCity, etc. I have experience with an array of testing tools and technologies.<br/><br/>
-   I have also gained experience and knowledge of other technologies from several side projects and research that I have undertaken in my free time, including Android, a variety of social APIs (Twitter etc) and cloud platforms such as CloudFoundry/OpenShift/AppFog/AWS. <br/><br/>
-   As part of Nerdability, I created, and am now primary contributor to, two Spring projects - <a target='_blank' href="https://github.com/robhinds/spring-social-geeklist">Spring-Social-Geeklist</a> and <a target='_blank' href="https://github.com/nerdability/spring-social-khan-academy">Spring-Social-Khan-Academy</a>, which provide core integration with those third-party APIs on top of the Spring Social framework. They are both listed as community projects: <a target='_blank' href="https://projects.spring.io/spring-social/">https://projects.spring.io/spring-social/</a>. <br/><br/>
-   I write a blog covering technical and opinion articles that can be found here: <a target='_blank' href="https://automateddeveloper.blogspot.com/">automateddeveloper.blogspot.com</a> (I am also a <a target='_blank' href="https://dzone.com/users/899489/rhinds.html">DZone MVB</a>)
+   <strong>Web Development Javascript / HTML / CSS / PHP </strong> I have used Groovy as a language in production for ~4 years and I am familiar with many of the languages features (such as writing <a target='_blank' href="https://dzone.com/articles/functional-programming-groovy">Functional Programming style groovy</a>) and quirks (such as <a target="_blank" href="https://dzone.com/articles/groovy-retrospective-an-addendum-memory-usage-perm">memory leak issues</a>). <br/><br/>
+   <strong>Phyton</strong>: I have primarily used AWS for running production apps on the cloud. I have experience setting up, configuring and running applications using a range of AWS offerings, including EC2, RDS, S3, Cogito, <a target="_blank" href="https://automateddeveloper.blogspot.com/2018/05/serverless-with-aws-lambda-scala.html">Lambda</a> and its more recent <a target="_blank" href="https://automateddeveloper.blogspot.com/2018/10/machine-learning-with-aws-scala.html">Machine Learning capabilities</a>.<br/><br/>
