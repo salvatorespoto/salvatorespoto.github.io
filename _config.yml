@@ -23,6 +23,11 @@ github:
    optionalImage: img/theyarealive.png
    optionalImageLink: https://youtu.be/gPahd7wHmjA
  
+ #List of ShaderToy shaders
+shadertoy:
+  shaders:
+  - link: https://www.shadertoy.com/embed/wtVSDh?gui=true&t=10&paused=true&muted=false
+  
 #User specific content
 #Links that will appear in the navbar
 primarylinks:
