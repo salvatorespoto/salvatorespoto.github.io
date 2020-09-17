@@ -9,8 +9,10 @@ markdown: kramdown
 #List of interesting Github repo/projects to include - optional
 github:
  projects:
- - optionalImage: https://camo.githubusercontent.com/872ea0b93aa09c60a8851a7b240b640f61e38e7b/687474703a2f2f69332e7974696d672e636f6d2f76692f7445567577704b645034412f6d617872657364656661756c742e6a7067
- - repository: salvatorespoto/GLTFViewer
+ - title: A glTF file viewer 
+   description: A  <a href="https://github.com/KhronosGroup/glTF/tree/master/specification/2.0">Visit W3Schools.com!</a> file viewer based on the DirectX 12. 
+   optionalImage: https://camo.githubusercontent.com/872ea0b93aa09c60a8851a7b240b640f61e38e7b/687474703a2f2f69332e7974696d672e636f6d2f76692f7445567577704b645034412f6d617872657364656661756c742e6a7067
+   repository: salvatorespoto/GLTFViewer
  
 #User specific content
 #Links that will appear in the navbar
@@ -93,17 +95,16 @@ roles:
  
 #Education is required
 education:
- - level: Ph.D Computer Science
+ - level: Ph.D 
    date: 2011
-   subject: Artificial Intelligence and Computer Science
+   subject: Computer Science
    school: University of Turin
- - level: Master Degree in Computer Science
+ - level: Master Degree
    date: 2004
-   subject: Artificial Intelligence and Computer Science
-   school: University of Birmingham
+   subject: Computer Science
+   school: University of Catania
 
 
- 
 #Stackoverflow flair is optional
 #stackoverflow:
 #   profileurl: https://stackoverflow.com/users/258813/rhinds
@@ -120,5 +121,5 @@ intro: |
 additionalinfo: |
    <strong>C++</strong>: Currently I am developing my projects using C++ 17. I worked in the past on projects that used previous versions of the language, both at University and at Private companies <br/>
    <strong>Java</strong>: I worked I am experienced in a variety of Java API’s and frameworks. I have worked with Spring 4, Spring Boot, JPA (Hibernate and EclipseLink) in addition to others. <br/><br/>
-   <strong>Web Development Javascript / HTML / CSS / PHP </strong> I have used Groovy as a language in production for ~4 years and I am familiar with many of the languages features (such as writing <a target='_blank' href="https://dzone.com/articles/functional-programming-groovy">Functional Programming style groovy</a>) and quirks (such as <a target="_blank" href="https://dzone.com/articles/groovy-retrospective-an-addendum-memory-usage-perm">memory leak issues</a>). <br/><br/>
-   <strong>Phyton</strong>: I have primarily used AWS for running production apps on the cloud. I have experience setting up, configuring and running applications using a range of AWS offerings, including EC2, RDS, S3, Cogito, <a target="_blank" href="https://automateddeveloper.blogspot.com/2018/05/serverless-with-aws-lambda-scala.html">Lambda</a> and its more recent <a target="_blank" href="https://automateddeveloper.blogspot.com/2018/10/machine-learning-with-aws-scala.html">Machine Learning capabilities</a>.<br/><br/>
+   <strong>Web Development</strong> I have used Javascript / HTML / CSS / PHP I have used Groovy as a language in production for ~4 years and I am familiar with many of the languages features (such as writing <a target='_blank' href="https://dzone.com/articles/functional-programming-groovy">Functional Programming style groovy</a>) and quirks (such as <a target="_blank" href="https://dzone.com/articles/groovy-retrospective-an-addendum-memory-usage-perm">memory leak issues</a>). <br/><br/>
+   <strong>Phyton</strong><br/><br/>
