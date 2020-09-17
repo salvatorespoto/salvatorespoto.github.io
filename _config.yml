@@ -10,9 +10,16 @@ markdown: kramdown
 github:
  projects:
  - title: A glTF file viewer 
-   description: A  <a href="https://github.com/KhronosGroup/glTF/tree/master/specification/2.0">Visit W3Schools.com!</a> file viewer based on the DirectX 12. 
+   description: A  <a href="https://github.com/KhronosGroup/glTF/tree/master/specification/2.0">glTF</a> file viewer based on the DirectX 12. 
    optionalImage: https://camo.githubusercontent.com/872ea0b93aa09c60a8851a7b240b640f61e38e7b/687474703a2f2f69332e7974696d672e636f6d2f76692f7445567577704b645034412f6d617872657364656661756c742e6a7067
    repository: salvatorespoto/GLTFViewer
+ - title: Nonagon
+   description: A prototype game made for the weekly game jam 
+   optionalVideo: https://www.youtube.com/watch?v=gAjW-B9WufE
+ - title: They are alive
+   description: A prototype game made for the weekly game jam https://frankiess.itch.io/they-are-alive
+   optinalVideo: https://www.youtube.com/watch?v=gPahd7wHmjA&feature=emb_logo
+   
  
 #User specific content
 #Links that will appear in the navbar
