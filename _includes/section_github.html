@@ -11,30 +11,26 @@
 					<div class="row">
 					{% endif %}
 						{% if project.title %}
-							<div class="col">
-								{{project.title}}
-							</div>
+						
+						{{project.title}}</br>
+						
 						{% endif %}
 						{% if project.description %}
-							<div class="col">
-								{{project.description}}
-							</div>
+								{{project.description}} </br>
+							
 						
 						{% endif %}
 						{% if project.optionalImage %}
-							<div class="col">
-								<img src="{{project.optionalImage}}" style="height: auto;width: 100%;">
-							</div>
+								<img src="{{project.optionalImage}}" style="height: auto;width: 100%;"> </br>
+							
 						{% endif %}
 						{% if project.optionalVideo %}
-							<div class="col">
-								<iframe src={{project.optionalVideo}}></iframe> 
-							</div>
+							
+								<iframe src={{project.optionalVideo}}></iframe> </br>
+							
 						{% endif %}
 						{% if project.repository %}
-							<div class="col">
-								<div class="github-widget" data-repo="{{project.repository}}"></div>
-							</div>
+								<div class="github-widget" data-repo="{{project.repository}}"></div> </br>
 						{% endif %}
 					{% if loopindex == 0 %}
 					</div>
