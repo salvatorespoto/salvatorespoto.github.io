@@ -26,7 +26,20 @@ github:
  #List of ShaderToy shaders
 shadertoy:
   shaders:
-  - link: https://www.shadertoy.com/embed/wtVSDh?gui=true&t=10&paused=true&muted=false
+  - title: Wireframe rasterizer pipeline
+    link: https://www.shadertoy.com/embed/wtVSDh?gui=true&t=10&paused=true&muted=false
+  - title: Flight simulator (work in progress)
+    link: https://www.shadertoy.com/embed/3lKXDc?gui=true&t=10&paused=true&muted=false
+  - title: Template SDF scene
+    link: https://www.shadertoy.com/embed/wdlyzl?gui=true&t=10&paused=true&muted=false
+  - title: Noise generated terrain
+    link: https://www.shadertoy.com/embed/3dsyRB?gui=true&t=10&paused=true&muted=false
+  - title: Secret chamber
+    link: https://www.shadertoy.com/embed/wdlcR7?gui=true&t=10&paused=true&muted=false
+  - title: Squares pattern
+    link: https://www.shadertoy.com/embed/3sfyWn?gui=true&t=10&paused=true&muted=false
+    
+    
   
 #User specific content
 #Links that will appear in the navbar
