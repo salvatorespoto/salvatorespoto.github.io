@@ -94,7 +94,7 @@ education:
  - level: Ph.D Computer Science
    date: 2011
    subject: Artificial Intelligence and Computer Science
-   school: University of Birmingham
+   school: University of Turin
  - level: Master Degree in Computer Science
    date: 2004
    subject: Artificial Intelligence and Computer Science
@@ -108,9 +108,11 @@ education:
 #   flairimageurl: https://stackoverflow.com/users/flair/258813.png
 
 intro: |
-  I am a computer scientist and a passionate software developer with more than 20 years of experience working in technology. <br/><br/>
-  I worked both in the development of enterprise applications and in applied university research. Durign these years i buildt a strong mathematical background, 
-   Skills in 3D and game related algorithms. Always in love with video games.
+  I am a computer scientist and a passionate software developer with 20 years of experience working in technology.
+  During my career, I worked both developing enterprise applications and in applied university research.
+  I have a strong algorithmic and mathematical background and I adapt very quickly to new languages and frameworks.
+  During the past years, I collaborated on many projects, working with different teams and technologies.
+  I have solid skills in 3D math and game-related algorithms. Always in love with video games.
   
 #An additional info freetext section is optional at the bottom of the page - can be text or HTML
 additionalinfo: |
