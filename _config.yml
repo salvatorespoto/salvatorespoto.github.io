@@ -98,7 +98,7 @@ roles:
    start: 2012
    end: 2015
    employer: University of Turin
-   description: As contract researcher I developed software, algorithms and protocols in collaboration with the research team. Some of the research fields were: social networks, recommending system and peer to peer protocols.
+   description: "As contract researcher I developed software, algorithms and protocols in collaboration with the research team. Some of the research fields were: social networks, recommending system and peer to peer protocols."
  - title: Full stack developer - Javascript, JQuery and PHP
    start: 2011
    end: 2012
