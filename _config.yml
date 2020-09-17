@@ -12,6 +12,7 @@ github:
  - title: A glTF file viewer 
    description: A  <a href="https://github.com/KhronosGroup/glTF/tree/master/specification/2.0">glTF</a> file viewer based on the DirectX 12. 
    optionalImage: img/gltfViewer.jpg
+   optionalImageLink: https://youtu.be/tEVuwpKdP4A
    repository: salvatorespoto/GLTFViewer
  - title: Nonagon
    description: A prototype game made for the weekly game jam 
