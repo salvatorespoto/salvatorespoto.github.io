@@ -144,6 +144,6 @@ intro: |
   I have solid skills in 3D math and game-related algorithms. Always in love with video games.
   
 #An additional info freetext section is optional at the bottom of the page - can be text or HTML
-#additionalinfo: |
+#additionalinfo: | 
 #   <strong>C++</strong>: Currently I am developing my personal projects using C++ 17 and HLSL. I I worked in the past on projects that used previous versions of the language, both at University and at Private companies <br/>
    
