@@ -17,12 +17,11 @@
 							{{project.description}} </br>
 						{% endif %}
 						{% if project.optionalImage %}
-							<img src="{{project.optionalImage}}" style="height: auto;width: 100%;"> </br>
+							<img src="{{project.optionalImage}}" style="height: auto; width: 100%;"> </br>
 						{% endif %}
 						{% if project.optionalVideo %}
-							<iframe src={{project.optionalVideo}}></iframe> </br>
+							<iframe width="894" height="503" src={{project.optionalVideo}} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						{% endif %}
-						
 						{% if project.repository %}
 							<div class="github-widget" data-repo="{{project.repository}}"></div> </br>
 						{% endif %}
