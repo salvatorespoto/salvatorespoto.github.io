@@ -1,3 +1,8 @@
+# A fork of NerdAbility - A CV Generator
+
+Just added some sections and fields to adapt to my CV.
+
+
 # NerdAbility - A CV Generator
 A Jekyll based CV page generator based on the user profile page on Nerdability.
 
