@@ -11,14 +11,20 @@
 					<div>
 					{% endif %}
 						{% if project.title %}
-							<h3>{{project.title}}</h3></br>
+							<h3>{{project.title}}</h3>
 						{% endif %}
 						{% if project.description %}
-							{{project.description}} </br>
+							{{project.description}} </br></br>
 						{% endif %}
+						{% if project.optionalImageLink %}
+							<a href={{project.optionalImageLink}}>
+						{% endif %}		
 						{% if project.optionalImage %}
 							<img src="{{project.optionalImage}}" style="height: auto; width: 100%;"> </br>
 						{% endif %}
+						{% if project.optionalImageLink %}
+							</a>
+						{% endif %}		
 						{% if project.optionalVideo %}
 							<iframe width="894" height="503" src={{project.optionalVideo}} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						{% endif %}
