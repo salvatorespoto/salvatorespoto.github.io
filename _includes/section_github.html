@@ -13,18 +13,10 @@
 					
 						{% if project.optionalImage %}
 							<div class="col-sm-5">
-								<img src="{{project.optionalimage}}">
-							</div>
-						{% endif %}
-						{% if project.optionalvideo %}
-							<div class="col-sm-5">
-								<img src="{{project.optionalimage}}">
+								<img src="{{project.optionalImage}}">
 							</div>
 						{% endif %}
 						<div class="col-sm-6">
-							<div class="github-widget" data-repo="{{project.repository}}"></div>
-						</div>
-						<div class="col-lg-6">
 							<div class="github-widget" data-repo="{{project.repository}}"></div>
 						</div>
 					{% if loopindex == 0 %}
