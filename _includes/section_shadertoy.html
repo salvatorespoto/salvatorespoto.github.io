@@ -7,6 +7,9 @@
 			<div>
 				{% for shader in site.shadertoy.shaders %}
 					<div class="col-sm-6">
+						{% if shader.title %}
+							{{shader.title}}</br>
+						{% endif %}
 						{% if shader.link %}
 							<iframe width="640" height="360" frameborder="0" src={{shader.link}} allowfullscreen></iframe>
 						{% endif %}
