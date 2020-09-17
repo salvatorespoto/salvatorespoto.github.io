@@ -11,14 +11,14 @@ github:
  projects:
  - title: A glTF file viewer 
    description: A  <a href="https://github.com/KhronosGroup/glTF/tree/master/specification/2.0">glTF</a> file viewer based on the DirectX 12. 
-   optionalImage: https://camo.githubusercontent.com/872ea0b93aa09c60a8851a7b240b640f61e38e7b/687474703a2f2f69332e7974696d672e636f6d2f76692f7445567577704b645034412f6d617872657364656661756c742e6a7067
+   optionalImage: img/gltfViewer.jpg
    repository: salvatorespoto/GLTFViewer
  - title: Nonagon
    description: A prototype game made for the weekly game jam 
-   optionalImage: <a href="https://www.youtube.com/watch?v=gAjW-B9WufE">img/theyarealive.jpg</a>
+   optionalImage: img/nonagon.jpg
  - title: They are alive
    description: A prototype game made for the weekly game jam. Here the link on <a href="https://frankiess.itch.io/they-are-alive">itch.io</a>
-   optinalImage: <a href="https://www.youtube.com/watch?v=gPahd7wHmjA">img/theyarealive.jpg</a>
+   optinalImage: img/theyarealive.png
    
  
 #User specific content
