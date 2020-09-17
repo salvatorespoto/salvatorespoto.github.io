@@ -6,20 +6,12 @@
 		<div class="content-rounded-panel" style="overflow: hidden;">
 			<div>
 				{% for shader in site.shadertoy.shaders %}
-					{% assign loopindex = forloop.index | modulo: 2 %}
-					{% if loopindex == 1 %}
 					<div>
-					{% endif %}
 						{% if shader.link %}
 							<iframe width="640" height="360" frameborder="0" src={{shader.link}} allowfullscreen></iframe>
 						{% endif %}
-					{% if loopindex == 0 %}
-					</div></br></br></br>
-					{% endif %}
+					</div></br>
 				{% endfor %}
-				{% if loopindex == 1 %}
-					</div>
-				{% endif %}
 			</div>
 		</div>
 	</div>
