@@ -16,33 +16,25 @@
 							</div>
 						{% endif %}
 						{% if project.description %}
-						<div class="row">
 							<div class="col">
 								{{project.description}}
 							</div>
-						</div>
 						
 						{% endif %}
 						{% if project.optionalImage %}
-						<div class="row">
 							<div class="col">
 								<img src="{{project.optionalImage}}" style="height: auto;width: 100%;">
 							</div>
-						</div>
 						{% endif %}
 						{% if project.optionalVideo %}
-						<div class="row">
 							<div class="col">
 								<iframe src={{project.optionalVideo}}></iframe> 
 							</div>
-						</div>
 						{% endif %}
 						{% if project.repository %}
-						<div class="row">
 							<div class="col">
 								<div class="github-widget" data-repo="{{project.repository}}"></div>
 							</div>
-						</div>
 						{% endif %}
 					{% if loopindex == 0 %}
 					</div>
