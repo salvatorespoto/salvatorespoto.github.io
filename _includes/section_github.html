@@ -10,6 +10,20 @@
 					{% if loopindex == 1 %}
 					<div class="row">
 					{% endif %}
+					
+						{% if project.optionalimage %}
+							<div class="col-sm-5">
+								<img src="{{project.optionalimage}}">
+							</div>
+						{% endif %}
+						{% if project.optionalvideo %}
+							<div class="col-sm-5">
+								<img src="{{project.optionalimage}}">
+							</div>
+						{% endif %}
+						<div class="col-sm-6">
+							<div class="github-widget" data-repo="{{project}}"></div>
+						</div>
 						<div class="col-lg-6">
 							<div class="github-widget" data-repo="{{project}}"></div>
 						</div>
