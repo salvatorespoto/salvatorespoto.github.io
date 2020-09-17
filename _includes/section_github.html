@@ -13,20 +13,21 @@
 						{% if project.title %}
 							<h3>{{project.title}}</h3></br>
 						{% endif %}
+						{% if project.description %}
+							{{project.description}} </br>
+						{% endif %}
 						{% if project.optionalImage %}
 							<img src="{{project.optionalImage}}" style="height: auto;width: 100%;"> </br>
 						{% endif %}
 						{% if project.optionalVideo %}
 							<iframe src={{project.optionalVideo}}></iframe> </br>
 						{% endif %}
-						{% if project.description %}
-							{{project.description}} </br>
-						{% endif %}
+						
 						{% if project.repository %}
 							<div class="github-widget" data-repo="{{project.repository}}"></div> </br>
 						{% endif %}
 					{% if loopindex == 0 %}
-					</div>
+					</div></br></br>
 					{% endif %}
 				{% endfor %}
 				{% if loopindex == 1 %}
