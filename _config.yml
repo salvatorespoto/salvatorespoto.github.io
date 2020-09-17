@@ -86,37 +86,37 @@ roles:
    start: 2016
    end: 2020
    employer: Synthesis3
-   description: Synthesis3 is a company that manly develop software realeated to the automotive field, serving big clients like Iveco or FTP Powertrain. I worked manly as Java Spring back-developer, but developed also some front-end parts if needed. 
- - title: Full stack developer - Angular and PHP
+   description: Synthesis3 is a company that develops software for the automotive field. Iveco or FPT Powertrain are among its clients. 
+ - title: Full stack Mobile developer - Angular and PHP
    start: 2015
    end: 2016
    employer: JumpOn
-   description: JumpOn was a start-up who provided mobility as a service. I worked bot as front-end Angular developer that back-end PHP developer.
+   description: JumpOn was a start-up who provided mobility as a service. I worked as full stack developer on a mobile app for car sharing.
  - title: Front-end developer
    start: 2015
    end: 2016
    employer: I.See
-   description: I.See is a company that develop Radioterapy Treatment Planning System software. As front end programmer I developed the user interface to visualize the TAC scans and define interactvely the treatment plan.
- - title: Generalist programmer
+   description: I.See is a company that develops Radioterapy Treatment Planning System software. As front end programmer I developed the user interface to visualize and interact with the 3D CT scans, defining the treatment plan.
+ - title: Programmer and researcher (C++, Java, Phython)
    start: 2013
    end: 2015
    employer: University of Turin
-   description: As contract researcher I develop in collaboration with several research team I developed software in the field of social netwrok, recommending system and streamibng.
+   description: As contract researcher I develop softwares, algorithms and protocols in collaboration with a research team. Some of the research field were: social netwroks, recommending system and peer-to-peer streaming.
  - title: Full stack developer - Javascript, PHP
    start: 2013
    end: 2015
    employer: Institut National de Recherche, France
-   description: Development of mobile applciation that implements cistize cervses
+   description: Development of mobile applciation that implements citizen services
  - title: C++ OpenGL Developer
    start: 2013
    end: 2015
-   employer: Institut National de Recherche, France
-   description: As contract researcher I develop in collaboration with several research team I developed software in the field of social netwrok, recommending system and streamibng.
+   employer: University of Catania
+   description: As contract researcher I develop new protocols, algorithms and software releated to 3D medical imaging.
  - title: C++  Developer
    start: 2001
    end: 2002
    employer: Telecom Italia Lab
-   description: As contract researcher I develop in collaboration with several research team I developed software in the field of social netwrok, recommending system and streamibng.
+   description: Development of a Gsm/Gprs protocols simulation
  
 #Education is required
 education:
@@ -124,9 +124,13 @@ education:
    date: 2011
    subject: Computer Science
    school: University of Turin
- - level: Master Degree
+ - level: Master Degree (110/110 cum laude)
    date: 2004
    subject: Computer Science
+   school: University of Catania
+ - level: Stage
+   date: 2001
+   subject: Development of a 3D scanner prototype
    school: University of Catania
 
 
