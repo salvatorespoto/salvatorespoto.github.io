@@ -10,15 +10,33 @@
 					{% if loopindex == 1 %}
 					<div class="row">
 					{% endif %}
-					
+						{% if project.title %}
+							{{project.title}}
+						{% endif %}
+						{% if project.description %}
+							{{project.description}}
+						{% endif %}
 						{% if project.optionalImage %}
-							<div class="col-sm-5">
+						<div class="row">
+							<div class="col">
 								<img src="{{project.optionalImage}}">
 							</div>
-						{% endif %}
-						<div class="col-sm-6">
-							<div class="github-widget" data-repo="{{project.repository}}"></div>
 						</div>
+						{% endif %}
+						{% if project.optionalVideo %}
+						<div class="row">
+							<div class="col">
+								<iframe src={{project.optionalVideo}}></iframe> 
+							</div>
+						</div>
+						{% endif %}
+						{% if project.repository %}
+						<div class="row">
+							<div class="col">
+								<div class="github-widget" data-repo="{{project.repository}}"></div>
+							</div>
+						</div>
+						{% endif %}
 					{% if loopindex == 0 %}
 					</div>
 					{% endif %}
