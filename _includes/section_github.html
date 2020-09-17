@@ -5,13 +5,13 @@
 		</div>
 		<div class="content-rounded-panel" style="overflow: hidden;">
 			<div>
-				{% for project in site.github %}
+				{% for project in site.github.projects %}
 					{% assign loopindex = forloop.index | modulo: 2 %}
 					{% if loopindex == 1 %}
 					<div class="row">
 					{% endif %}
 					
-						{% if project.optionalimage %}
+						{% if project.optionalImage %}
 							<div class="col-sm-5">
 								<img src="{{project.optionalimage}}">
 							</div>
@@ -22,10 +22,10 @@
 							</div>
 						{% endif %}
 						<div class="col-sm-6">
-							<div class="github-widget" data-repo="{{project}}"></div>
+							<div class="github-widget" data-repo="{{project.repository}}"></div>
 						</div>
 						<div class="col-lg-6">
-							<div class="github-widget" data-repo="{{project}}"></div>
+							<div class="github-widget" data-repo="{{project.repository}}"></div>
 						</div>
 					{% if loopindex == 0 %}
 					</div>
