@@ -11,10 +11,19 @@
 					<div class="row">
 					{% endif %}
 						{% if project.title %}
-							{{project.title}}
+						<div class="row">
+							div class="col">
+								{{project.title}}
+							</div>
+						</div>	
 						{% endif %}
 						{% if project.description %}
-							{{project.description}}
+						<div class="row">
+							div class="col">
+								{{project.description}}
+							</div>
+						</div>
+						
 						{% endif %}
 						{% if project.optionalImage %}
 						<div class="row">
