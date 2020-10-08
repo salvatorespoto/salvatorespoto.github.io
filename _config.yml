@@ -43,18 +43,24 @@ github:
  #List of ShaderToy shaders
 shadertoy:
   shaders:
-  - title: Wireframe rasterizer pipeline
-    link: https://www.shadertoy.com/embed/wtVSDh?gui=true&t=10&paused=true&muted=false
+  - title: Wireframe rasterizer
+    shaderId: https://www.shadertoy.com/embed/wtVSDh?gui=true&t=10&paused=true&muted=false
+    description: bkajsdlkjf sadfkldashf lasdhf sf dsfkash fhdsafh saffsdlh f
   - title: Flight simulator (work in progress)
-    link: https://www.shadertoy.com/embed/3lKXDc?gui=true&t=10&paused=true&muted=false
+    shaderId: https://www.shadertoy.com/embed/3lKXDc?gui=true&t=10&paused=true&muted=false
+    description: bkajsdlkjf sadfkldashf lasdhf sf dsfkash fhdsafh saffsdlh f
   - title: Template SDF scene
-    link: https://www.shadertoy.com/embed/wdlyzl?gui=true&t=10&paused=true&muted=false
+    shaderId: https://www.shadertoy.com/embed/wdlyzl?gui=true&t=10&paused=true&muted=false
+    description: bkajsdlkjf sadfkldashf lasdhf sf dsfkash fhdsafh saffsdlh f
   - title: Noise generated terrain
-    link: https://www.shadertoy.com/embed/3dsyRB?gui=true&t=10&paused=true&muted=false
+    shaderId: https://www.shadertoy.com/embed/3dsyRB?gui=true&t=10&paused=true&muted=false
+    description: bkajsdlkjf sadfkldashf lasdhf sf dsfkash fhdsafh saffsdlh f
   - title: Secret chamber
-    link: https://www.shadertoy.com/embed/wdlcR7?gui=true&t=10&paused=true&muted=false
+    shaderId: https://www.shadertoy.com/embed/wdlcR7?gui=true&t=10&paused=true&muted=false
+    description: bkajsdlkjf sadfkldashf lasdhf sf dsfkash fhdsafh saffsdlh f
   - title: Squares pattern
-    link: https://www.shadertoy.com/embed/3sfyWn?gui=true&t=10&paused=true&muted=false
+    shaderId: https://www.shadertoy.com/embed/3sfyWn?gui=true&t=10&paused=true&muted=false
+    description: bkajsdlkjf sadfkldashf lasdhf sf dsfkash fhdsafh saffsdlh f
     
 #User specific content
 #Links that will appear in the navbar
