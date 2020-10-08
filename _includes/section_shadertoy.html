@@ -10,8 +10,11 @@
 						{% if shader.title %}
 							{{shader.title}}</br>
 						{% endif %}
-						{% if shader.link %}
-							<iframe width="100%" frameborder="0" src={{shader.link}} allowfullscreen></iframe>
+						{% if shader.shaderId %}
+							<a href="https://www.shadertoy.com/view/{{shader.shaderId}}" ><img src="https://www.shadertoy.com/media/shaders/{{shader.shaderId}}.jpg" /> my shadersdss</a>
+						{% endif %}
+						{% if shader.description %}
+							{{shader.description}}</br>
 						{% endif %}
 					</div>
 				{% endfor %}
