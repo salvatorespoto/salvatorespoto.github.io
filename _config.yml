@@ -19,7 +19,7 @@ github:
     GlTF is a specification from KhronosGroup for a file format that can describe:
     <ul> <li>3D geometry </li>
     <li>materials, described according to a <a href="https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#implementation">shading model</a> described in the specification</li>
-    <li> animations </li><ul/>
+    <li> animations </li></ul>
     
     This is an ongoing project actually under development. Check out the <a href="https://github.com/salvatorespoto/GLTFViewer/projects/1">project roadmap</a> 
     Current supported features are:
