@@ -8,10 +8,10 @@
 				{% for shader in site.shadertoy.shaders %}
 					<div class="col-sm-12">
 						{% if shader.title %}
-							<h4>{{shader.title}}</h4>
+							<h3>{{shader.title}}</h3>
 						{% endif %}
 						{% if shader.shaderId %}
-							<a style="width:50%" href="https://www.shadertoy.com/view/{{shader.shaderId}}" ><img src="https://www.shadertoy.com/media/shaders/{{shader.shaderId}}.jpg" /> my shadersdss</a>
+							<a href="https://www.shadertoy.com/view/{{shader.shaderId}}" ><img style="width:50%" src="https://www.shadertoy.com/media/shaders/{{shader.shaderId}}.jpg" /></a>
 						{% endif %}
 						{% if shader.description %}
 							{{shader.description}}</br>
