@@ -10,12 +10,16 @@
 						{% if shader.title %}
 							<h3>{{shader.title}}</h3>
 						{% endif %}
+						<div class="col-sm-6">
 						{% if shader.shaderId %}
 							<a href="https://www.shadertoy.com/view/{{shader.shaderId}}" ><img style="width:50%" src="https://www.shadertoy.com/media/shaders/{{shader.shaderId}}.jpg" /></a>
 						{% endif %}
+						</div>
+						<div class="col-sm-6">
 						{% if shader.description %}
-							{{shader.description}}</br>
+							{{shader.description}}
 						{% endif %}
+						</div>
 					</div>
 				{% endfor %}
 			</div>
