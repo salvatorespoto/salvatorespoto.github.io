@@ -10,8 +10,8 @@ markdown: kramdown
 github:
  projects:
  - title: glTF Viewer DX
-   description: >
-   A viewer of the <a href="https://github.com/KhronosGroup/glTF/tree/master/specification/2.0">glTF</a> file format, implemented in DirectX 12.
+   description: |
+   A viewer of the <a href="https://github.com/KhronosGroup/glTF/tree/master/specification/2.0">glTF</a> file format, implemented in DirectX 12. 
    <p> This project aims to realize a software that can load and render files written according to the [glTF](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0) specification. The software is implemented in C++, DirectX 12 and HLSL.   
    optionalImage: img/gltfViewer.jpg
    optionalImageLink: https://youtu.be/tEVuwpKdP4A
