@@ -12,7 +12,20 @@ github:
  - title: glTF Viewer DX
    description: |
     A viewer of the <a href="https://github.com/KhronosGroup/glTF/tree/master/specification/2.0">glTF</a> file format, implemented in DirectX 12. 
-    <p> This project aims to realize a software that can load and render files written according to the [glTF](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0) specification. The software is implemented in C++, DirectX 12 and HLSL.
+    <p> This project aims to realize a software that can load and render files written according to the 
+    <a href="https://github.com/KhronosGroup/glTF/tree/master/specification/2.0>glTF</a> specification. 
+    The software is implemented in C++, DirectX 12 and HLSL.
+    glTF is a specification from KhronosGroup for a file format that can describe:
+    <ul> <li>3D geometry </li><li> 
+    </li>materials, described according to a <a href="https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#implementation">shading model</a>
+    <li> animations </li><ul/>
+    This is an ongoing project actually under development. Check out the <a href="https://github.com/salvatorespoto/GLTFViewer/projects/1>project roadmap</a> 
+    Current supported features are:
+    <ul> <li>Scenes: scene, nodes hierarchy, node transformation </li> 
+    <li>Meshes: geometry, all the attributes are supported (position, normal, tangent, textcoord_0, etc.), instantiation </li> 
+    <li>  Materials: textures, images, samples, additional maps (normal, occlusion, emission)</li>
+    <li> Shading model</li>
+    </ul>
    
    optionalImage: img/gltfViewer.jpg
    optionalImageLink: https://youtu.be/tEVuwpKdP4A
