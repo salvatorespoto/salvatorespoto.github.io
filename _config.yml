@@ -14,7 +14,7 @@ github:
     A viewer of the <a href="https://github.com/KhronosGroup/glTF/tree/master/specification/2.0">glTF</a> file format, implemented in DirectX 12. 
     <p> This project aims to realize a software that can load and render files written according to the 
     <a href="https://github.com/KhronosGroup/glTF/tree/master/specification/2.0">glTF</a> specification. 
-    The software is implemented in C++, DirectX 12 and HLSL.</br>
+    The software is implemented in C++, DirectX 12 and HLSL.</br></br>
     GlTF is a specification from KhronosGroup for a file format that can describe:</br>
     <ul> <li>3D geometry </li>
     <li>materials, described according to a <a href="https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#implementation">shading model</a> described in the specification</li>
