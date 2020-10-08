@@ -46,9 +46,9 @@ shadertoy:
   - title: Wireframe rasterizer
     shaderId: wtVSDh
     description: |
-     This is a little wireframe rasterizer. It uses the same transformations pipeline that OpenGL: 
-     Object-> Eye -> Clip -> NDC -> Window. When in window coordinates the points are rasterized as wireframe.
-     This is a very good exercise to learn how a vertex makes its way to the screen.<br>
+     <br>A little wireframe rasterizer. It uses the same transformations pipeline that OpenGL:
+     Object -> Eye -> Clip -> NDC -> Window. When in window coordinates the points are rasterized as wireframe.
+     This is a very good exercise to learn how a vertex makes its way to the screen.<br><br>
      <a href="https://shadertoy.com/view/wtVSDh"> Link to the shader </a>
      
   - title: Flight simulator (work in progress)
