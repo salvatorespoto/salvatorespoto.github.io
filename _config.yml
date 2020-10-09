@@ -59,21 +59,12 @@ shadertoy:
      This is a very good exercise to learn how a vertex makes its way to the screen.<br><br>
      <a target="_blank" href="https://shadertoy.com/view/wtVSDh"> Link to the shader </a>
      
-  - title: Flight simulator (work in progress)
-    shaderId: 3lKXDc
-    description: bkajsdlkjf sadfkldashf lasdhf sf dsfkash fhdsafh saffsdlh f
-  - title: Template SDF scene
-    shaderId: wdlyzl
-    description: bkajsdlkjf sadfkldashf lasdhf sf dsfkash fhdsafh saffsdlh f
-  - title: Noise generated terrain
-    shaderId: 3dsyRB
-    description: bkajsdlkjf sadfkldashf lasdhf sf dsfkash fhdsafh saffsdlh f
-  - title: Secret chamber
-    shaderId: wdlcR7
-    description: bkajsdlkjf sadfkldashf lasdhf sf dsfkash fhdsafh saffsdlh f
-  - title: Squares pattern
-    shaderId: 3sfyWn
-    description: bkajsdlkjf sadfkldashf lasdhf sf dsfkash fhdsafh saffsdlh f
+  - title: Blinn-Phong 3d3cWN
+    shaderId: wstyzH
+    description: |
+     <br>A test of the Blinn-Phong model shading, that use  ambient + diffuse + specular. The specular component uses the Schlick's approximation to compute the
+     Freshnel factor. Environment reflection are added from a cubemap. <br><br>
+     <a target="_blank" href="https://shadertoy.com/view/wstyzH"> Link to the shader </a>
     
 #User specific content
 #Links that will appear in the navbar
