@@ -59,12 +59,18 @@ shadertoy:
      This is a very good exercise to learn how a vertex makes its way to the screen.<br><br>
      <a target="_blank" href="https://shadertoy.com/view/wtVSDh"> Link to the shader </a>
      
-  - title: Blinn-Phong 3d3cWN
+  - title: Blinn-Phong shading model
     shaderId: 3d3cWN
     description: |
      <br>A test of the Blinn-Phong model shading, that use  ambient + diffuse + specular. The specular component uses the Schlick's approximation to compute the
      Freshnel factor. Environment reflection are added from a cubemap. <br><br>
      <a target="_blank" href="https://shadertoy.com/view/3d3cWN"> Link to the shader </a>
+     
+  - title: Ray marched scene with different camera models
+    shaderId: tdcyD7
+    description: |
+     <br>A procedural 3D scene renderer with a ray marcher. You can walk and look around. Two camera models are implemented: perspective and ortographic. <br><br>
+     <a target="_blank" href="https://shadertoy.com/view/tdcyD7"> Link to the shader </a>
     
 #User specific content
 #Links that will appear in the navbar
