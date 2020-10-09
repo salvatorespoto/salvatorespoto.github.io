@@ -91,23 +91,17 @@ shadertoy:
     description: |
      <br> The sprirographic equation graph is discretized and rendered as a set of spheres. The sheres draw some of the equation notable values<br><br>
      <a target="_blank" href="https://shadertoy.com/view/3s3cRj"> Link to the shader </a>
-     
-  - title: Ray traced rendering of the spirographic equation
-    shaderId: 3s3cRj
-    description: |
-     <br> The sprirographic equation graph is discretized and rendered as a set of spheres. The sheres draw some of the equation notable values<br><br>
-     <a target="_blank" href="https://shadertoy.com/view/3s3cRj"> Link to the shader </a>
-     
+   
   - title: Metablob
     shaderId: 3s3yWf
     description: |
-     <br> Metablobs is a cool effect from 90s :). 
+     <br> Metablobs is a cool effect from 90s :). <br><br>
      <a target="_blank" href="https://shadertoy.com/view/3s3yWf"> Link to the shader </a>
  
   - title: Old school fire
     shaderId: WddcWj
     description: |
-     <br> This effect came from the 80s. Funny thing, this effect was discovered by accident "tweaking some bugs" during development of a software. 
+     <br> This effect came from the 80s. Funny thing, this effect was discovered by accident "tweaking some bugs" during development of a software. <br><br>
      <a target="_blank" href="https://shadertoy.com/view/WddcWj"> Link to the shader </a>
      
   - title: Old school plasma
