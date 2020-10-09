@@ -48,7 +48,7 @@ shadertoy:
     description: |
      <br>Here I demonstrate the process of backing the normal maps from a high detailed (HD) object to the tangent space of a low detailed (LD) object.
      Rays are casted from outside the objects, normal are sampled from the HD model and mapped to the LD one. This mapping then transformed in the LD tangent space.
-     The HD object is dynamic changing and the normal are sampled in real time, so you can see how the changes in the HD model affect the LD. 
+     The HD object is dynamic changing and the normal are sampled in real time, so you can see how the changes in the HD model affect the LD. <br><br>
      <a target="_blank" href="https://shadertoy.com/view/wstyzH"> Link to the shader </a>
      
   - title: Wireframe rasterizer
