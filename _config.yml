@@ -60,11 +60,11 @@ shadertoy:
      <a target="_blank" href="https://shadertoy.com/view/wtVSDh"> Link to the shader </a>
      
   - title: Blinn-Phong 3d3cWN
-    shaderId: wstyzH
+    shaderId: 3d3cWN
     description: |
      <br>A test of the Blinn-Phong model shading, that use  ambient + diffuse + specular. The specular component uses the Schlick's approximation to compute the
      Freshnel factor. Environment reflection are added from a cubemap. <br><br>
-     <a target="_blank" href="https://shadertoy.com/view/wstyzH"> Link to the shader </a>
+     <a target="_blank" href="https://shadertoy.com/view/3d3cWN"> Link to the shader </a>
     
 #User specific content
 #Links that will appear in the navbar
