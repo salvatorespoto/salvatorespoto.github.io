@@ -69,8 +69,34 @@ shadertoy:
   - title: Ray marched scene with different camera models
     shaderId: tdcyD7
     description: |
-     <br>A procedural 3D scene renderer with a ray marcher. You can walk and look around. Two camera models are implemented: perspective and ortographic. <br><br>
+     <br>A procedural 3D scene renderer with a ray marcher. You can walk and look around. Two camera models are implemented: perspective and ortographic. 
+     Is possible to set the field of view in the perspective camera.<br><br>
      <a target="_blank" href="https://shadertoy.com/view/tdcyD7"> Link to the shader </a>
+     
+  - title: Ray marched scene with pixelate effect
+    shaderId: 3d3czf
+    description: |
+     <br>A procedural 3D scene renderer with a ray marcher. You can walk and look around. A pixelate effect is added as post-processing to give an old 
+     "low resolution" look. It's possible set the size of the pixelation. <br><br>
+     <a target="_blank" href="https://shadertoy.com/view/3d3czf"> Link to the shader </a>
+     
+  - title: Ray marched terrain
+    shaderId: 3dsyRB
+    description: |
+     <br> A procedural terrain is rendered with a ray marcher. The terrain heighmap is generated using Perlin noise.<br><br>
+     <a target="_blank" href="https://shadertoy.com/view/3dsyRB"> Link to the shader </a>
+  
+  - title: Ray traced rendering of the spirographic equation
+    shaderId: 3s3cRj
+    description: |
+     <br> The sprirographic equation graph is discretized and rendered as a set of spheres. The sheres draw some of the equation notable values
+     <a target="_blank" href="https://shadertoy.com/view/3s3cRj"> Link to the shader </a>
+     
+  - title: Ray traced rendering of the spirographic equation
+    shaderId: 3s3cRj
+    description: |
+     <br> The sprirographic equation graph is discretized and rendered as a set of spheres. The sheres draw some of the equation notable values
+     <a target="_blank" href="https://shadertoy.com/view/3s3cRj"> Link to the shader </a>
     
 #User specific content
 #Links that will appear in the navbar
