@@ -89,15 +89,51 @@ shadertoy:
   - title: Ray traced rendering of the spirographic equation
     shaderId: 3s3cRj
     description: |
-     <br> The sprirographic equation graph is discretized and rendered as a set of spheres. The sheres draw some of the equation notable values
+     <br> The sprirographic equation graph is discretized and rendered as a set of spheres. The sheres draw some of the equation notable values<br><br>
      <a target="_blank" href="https://shadertoy.com/view/3s3cRj"> Link to the shader </a>
      
   - title: Ray traced rendering of the spirographic equation
     shaderId: 3s3cRj
     description: |
-     <br> The sprirographic equation graph is discretized and rendered as a set of spheres. The sheres draw some of the equation notable values
+     <br> The sprirographic equation graph is discretized and rendered as a set of spheres. The sheres draw some of the equation notable values<br><br>
      <a target="_blank" href="https://shadertoy.com/view/3s3cRj"> Link to the shader </a>
-    
+     
+  - title: Metablob
+    shaderId: 3s3yWf
+    description: |
+     <br> Metablobs is a cool effect from 90s :). 
+     <a target="_blank" href="https://shadertoy.com/view/3s3yWf"> Link to the shader </a>
+ 
+  - title: Old school fire
+    shaderId: WddcWj
+    description: |
+     <br> This effect came from the 80s. Funny thing, this effect was discovered by accident "tweaking some bugs" during development of a software. 
+     <a target="_blank" href="https://shadertoy.com/view/WddcWj"> Link to the shader </a>
+     
+  - title: Old school plasma
+    shaderId: wsdcDj
+    description: |
+     <br> Another classic effect from 80s demo :)<br><br>
+     <a target="_blank" href="https://shadertoy.com/view/wsdcDj"> Link to the shader </a>   
+  
+  - title: Old school rotozoom
+    shaderId: wsdyW2
+    description: |
+     <br> Rotozoom <br><br>
+     <a target="_blank" href="https://shadertoy.com/view/wsdyW2"> Link to the shader </a>
+     
+  - title: Old school Moire patterns
+    shaderId: wdcyWX
+    description: |
+     <br> Moire patterns <br><br>
+     <a target="_blank" href="https://shadertoy.com/view/wdcyWX"> Link to the shader </a>
+     
+  - title: Lens distortion
+    shaderId: WsdyWX
+    description: |
+     <br> An convave lens simulation <br><br>
+     <a target="_blank" href="https://shadertoy.com/view/WsdyWX"> Link to the shader </a>
+         
 #User specific content
 #Links that will appear in the navbar
 primarylinks:
