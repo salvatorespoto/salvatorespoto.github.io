@@ -43,6 +43,13 @@ github:
  #List of ShaderToy shaders
 shadertoy:
   shaders:
+  - title: Elicopter arcade flight
+    shaderId: 3d3yDl
+    description: |
+     <br> A little "arcade" flying with an elicopter. The map generated inside the shader in a completely procedural way. I tried to give to the terrain
+     a look that resemple the old "Comanche: Maximum Overkill" game. 
+     <a target="_blank" href="https://shadertoy.com/view/3d3yDl"> Link to the shader </a>
+  
   - title: Baking normal maps
     shaderId: wstyzH
     description: |
