@@ -1,0 +1,28 @@
+{% if site.github %}
+	<div class="rounded_panel txt_lightgrey">
+		<div class="top-rounded-panel grey-bg">
+			<h1>Unreal Engine 4 things</h1>
+		</div>
+		<div class="content-rounded-panel" style="overflow: hidden;">
+			<div>
+				{% for project in site.ue4.projects %}
+					<div class="col-sm-12">
+						{% if project.title %}
+							<h3>{{project.title}}</h3>
+						{% endif %}
+						<div class="col-sm-6">
+						{% if shader.shaderId %}
+							<a href="https://www.shadertoy.com/view/{{shader.shaderId}}" ><img style="width:80%" src="https://www.shadertoy.com/media/shaders/{{shader.shaderId}}.jpg" /></a>
+						{% endif %}
+						</div>
+						<div class="col-sm-6">
+						{% if shader.description %}
+							{{shader.description}}
+						{% endif %}
+						</div>
+					</div>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+{% endif %}
