@@ -47,9 +47,15 @@ ue4:
     link: https://github.com/salvatorespoto/ShooterGame
     image: https://img.youtube.com/vi/9SuNrZd9L5c/0.jpg
     description: |
-     <br> A little "arcade" flying with an elicopter. The map is generated inside the shader in a completely procedural way. I tried to give to the terrain
-     a look that resembles the old "Comanche: Maximum Overkill" game. 
-     <a target="_blank" href="https://www.youtube.com/watch?v=9SuNrZd9L5c"> Video </a>
+     <br> The following custom movements/modifier have been added to UE4 Shootergame EX, using C++ and Blueprints:
+           * Teleport
+           * Jetpack
+           * Wall jump
+           * Wall run
+           * Freezing gun
+           * Player drops his remaining rifle ammo when die
+        Each modifier works properly in multiplayer and expose properties in the MovementComponent of the blueprints PlayerPawns and BotPawns. 
+        Refer to the GitHub page for further info.
     repository: https://github.com/salvatorespoto/ShooterGame
 
 #List of ShaderToy shaders
