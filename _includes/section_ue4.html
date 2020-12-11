@@ -21,11 +21,11 @@
 						{% endif %}
 						</div>
 					</div>
+					{% if project.repository %}
 					<div class="col-sm-12">
-						{% if project.repository %}
-							<div class="github-widget" data-repo="{{project.repository}}"></div> </br>
-						{% endif %}
+						<div class="github-widget" data-repo="{{project.repository}}"></div> </br>	
 					</div>
+					{% endif %}
 				{% endfor %}
 			</div>
 		</div>
