@@ -47,8 +47,7 @@ ue4:
     link: https://github.com/salvatorespoto/ShooterGame
     image: https://img.youtube.com/vi/9SuNrZd9L5c/0.jpg
     description: |
-     <br> 
-     The following custom movements/modifier have been added to UE4 Shootergame EX, using C++ and Blueprints:
+     <br> The following custom movements/modifier have been added to UE4 Shootergame EX, using C++ and Blueprints:
      <ul><li>Teleport</li><li>Jetpack</li><li>Wall jump</li><li>Wall run</li><li>Freezing gun</li><li>Player drops his remaining rifle ammo when die</li></ul>      
      Each modifier works properly in multiplayer and expose properties in the MovementComponent of the blueprints PlayerPawns and BotPawns. 
      Refer to the GitHub page for further info.
