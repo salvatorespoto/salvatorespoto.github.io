@@ -52,7 +52,16 @@ ue4:
      <ul><li>Teleport</li><li>Jetpack</li><li>Wall jump</li><li>Wall run</li><li>Freezing gun</li><li>Player drops his remaining rifle ammo when die</li></ul>      
      Each modifier works properly in multiplayer and expose properties in the MovementComponent of the blueprints PlayerPawns and BotPawns. 
      Refer to the GitHub page for further info.
-    repository: salvatorespoto/ShooterGame 
+    repository: salvatorespoto/ShooterGame
+    
+  - title: Blueprints implementation of the Dijkstra shortest path algorithm on a Hexagonal map
+    link: https://github.com/salvatorespoto/DijkstraBlueprint
+    image: https://img.youtube.com/vi/puJTlvWsM6c/0.jpg
+    description: |
+     <br> <a target="_blank" href="https://www.youtube.com/watch?v=puJTlvWsM6c"> Video </a> <br>
+     <br> A UE4 Blueprint implementation of the Dijkstra shortest path algorithm on a hexagonal grid. 
+     The project come with a level that includes a randomly generated map with obstacles and mandatory waypoints, that illustrates how the algorithm result.
+    repository: salvatorespoto/DijkstraBlueprint
    
 #List of ShaderToy shaders
 shadertoy:
