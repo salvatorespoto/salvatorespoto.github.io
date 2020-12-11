@@ -20,12 +20,12 @@
 							{{project.description}}
 						{% endif %}
 						</div>
+						<div class="col-sm-6">
+						{% if project.repository %}
+							<div class="github-widget" data-repo="{{project.repository}}"></div> </br>	
+						{% endif %}
+						</div>
 					</div>
-					{% if project.repository %}
-					<div class="col-sm-12">
-						<div class="github-widget" data-repo="{{project.repository}}"></div> </br>	
-					</div>
-					{% endif %}
 				{% endfor %}
 			</div>
 		</div>
