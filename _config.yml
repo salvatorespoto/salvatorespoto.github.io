@@ -52,7 +52,7 @@ ue4:
      <ul><li>Teleport</li><li>Jetpack</li><li>Wall jump</li><li>Wall run</li><li>Freezing gun</li><li>Player drops his remaining rifle ammo when die</li></ul>      
      Each modifier works properly in multiplayer and expose properties in the MovementComponent of the blueprints PlayerPawns and BotPawns. 
      Refer to the GitHub page for further info.
-    repository: salvatorespoto/ShooterGame
+    repository: salvatorespoto/ShooterGame 
    
 #List of ShaderToy shaders
 shadertoy:
