@@ -11,13 +11,16 @@
 							<h3>{{project.title}}</h3>
 						{% endif %}
 						<div class="col-sm-6">
-						{% if shader.shaderId %}
-							<a href="https://www.shadertoy.com/view/{{shader.shaderId}}" ><img style="width:80%" src="https://www.shadertoy.com/media/shaders/{{shader.shaderId}}.jpg" /></a>
+						{% if project.link %}
+							<a href="{{project.link}}" ><img style="width:80%" src="{{project.image}}" /></a>
 						{% endif %}
 						</div>
 						<div class="col-sm-6">
-						{% if shader.description %}
-							{{shader.description}}
+						{% if project.description %}
+							{{project.description}}
+						{% endif %}
+						{% if project.repository %}
+							<div class="github-widget" data-repo="{{project.repository}}"></div> </br>
 						{% endif %}
 						</div>
 					</div>
