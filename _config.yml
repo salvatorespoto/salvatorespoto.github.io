@@ -62,7 +62,15 @@ ue4:
      <br> A UE4 Blueprint implementation of the Dijkstra shortest path algorithm on a hexagonal grid. 
      The project come with a level that includes a randomly generated map with obstacles and mandatory waypoints, that illustrates how the algorithm result.
     repository: salvatorespoto/DijkstraBlueprint
-   
+    
+  - title: Nonagon
+    link: https://frankiess.itch.io/they-are-alive
+    image: https://img.youtube.com/vi/gAjW-B9WufE/0.jpg
+    description: |
+     <br> <a target="_blank" href="https://www.youtube.com/watch?v=gAjW-B9WufE&fbclid"> Video </a> <br>
+     <br> <a target="_blank" href="https://frankiess.itch.io/they-are-alive"> Itch.io </a> <br>
+     <br> A game prototype developed for a game jam using Unreal Engine 4.
+    
 #List of ShaderToy shaders
 shadertoy:
   shaders:
