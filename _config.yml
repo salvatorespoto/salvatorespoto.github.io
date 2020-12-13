@@ -15,7 +15,7 @@ cpp:
     description: |
      <a target="_blank" href="https://github.com/salvatorespoto/GLTFViewer/projects/1">Project roadmap</a>.</br>
      <a target="_blank" href=" https://youtu.be/tEVuwpKdP4A"> Video </a> <br>
-     A 3D viewer of the <a href="https://github.com/KhronosGroup/glTF/tree/master/specification/2.0">glTF</a> file format. <br>`
+     A 3D viewer of the <a href="https://github.com/KhronosGroup/glTF/tree/master/specification/2.0">glTF</a> file format. <br>
      The software is implemented in C++, DirectX 12 and HLSL.</br>
      <p> This project aims to realize a software that can load and render files written according to the glTF specification. 
      This is an ongoing project actually under development. <br></br> 
