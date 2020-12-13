@@ -1,11 +1,11 @@
-{% if site.github %}
+{% if site.cpp %}
 	<div class="rounded_panel txt_lightgrey">
 		<div class="top-rounded-panel grey-bg">
 			<h1>Unreal C++ and DirectX </h1>
 		</div>
 		<div class="content-rounded-panel" style="overflow: hidden;">
 			<div>
-				{% for project in site.ue4.projects %}
+				{% for project in site.cpp.projects %}
 					<div class="col-sm-12">
 						{% if project.title %}
 							<h3>{{project.title}}</h3>
