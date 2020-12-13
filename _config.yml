@@ -7,39 +7,20 @@ name: Salvatore Spoto
 markdown: kramdown
 
 #List of interesting Github repo/projects to include - optional
-github:
+cpp:
  projects:
- - title: glTF Viewer DirectX 12
-   description: |
-    A viewer of the <a href="https://github.com/KhronosGroup/glTF/tree/master/specification/2.0">glTF</a> file format, implemented in DirectX 12. 
-    <p> This project aims to realize a software that can load and render files written according to the 
-    <a href="https://github.com/KhronosGroup/glTF/tree/master/specification/2.0">glTF</a> specification. 
-    The software is implemented in C++, DirectX 12 and HLSL.</br></br>
-    GlTF is a specification from KhronosGroup for a file format that can describe:</br>
-    <ul> <li>3D geometry </li>
-    <li>materials, described according to a <a href="https://github.com/KhronosGroup/glTF/tree/master/specification/2.0#implementation">shading model</a> described in the specification</li>
-    <li> animations </li></ul>
-    </br>
-    This is an ongoing project actually under development. Check out the <a href="https://github.com/salvatorespoto/GLTFViewer/projects/1">project roadmap</a>.</br>
-    Current supported features are:</br>
-    <ul> <li>Scenes: scene, nodes hierarchy, node transformation </li> 
-    <li> Meshes: geometry, all the attributes are supported (position, normal, tangent, textcoord_0, etc.), instantiation </li> 
-    <li>  Materials: textures, images, samples, additional maps (normal, occlusion, emission)</li>
-    <li> Shading model</li>
-    </ul></br>
-   
-   optionalImage: img/gltfViewer.jpg
-   optionalImageLink: https://youtu.be/tEVuwpKdP4A
-   repository: salvatorespoto/GLTFViewer
- - title: Nonagon
-   description: A prototype game made for the weekly game jam 
-   optionalImage: img/nonagon.jpg
-   optionalImageLink: https://youtu.be/gAjW-B9WufE
- - title: They are alive
-   description: A prototype game made for the weekly game jam. Here the link on <a href="https://frankiess.itch.io/they-are-alive">itch.io</a>
-   optionalImage: img/theyarealive.png
-   optionalImageLink: https://youtu.be/gPahd7wHmjA
-
+  - title: Directx 12 gLTF 3D viewer
+    link: https://github.com/salvatorespoto/GLTFViewer
+    image: img/gltfViewer.jpg
+    description: |
+     <a target="_blank" href="https://github.com/salvatorespoto/GLTFViewer/projects/1">Project roadmap</a>.</br>
+     <a target="_blank" href=" https://youtu.be/tEVuwpKdP4A"> Video </a> <br>
+     A 3D viewer of the <a href="https://github.com/KhronosGroup/glTF/tree/master/specification/2.0">glTF</a> file format. <br>`
+     The software is implemented in C++, DirectX 12 and HLSL.</br>
+     <p> This project aims to realize a software that can load and render files written according to the glTF specification. 
+     This is an ongoing project actually under development. <br></br> 
+    repository: salvatorespoto/GLTFViewer
+    
 #List of UE4 projects
 ue4:
   projects:
