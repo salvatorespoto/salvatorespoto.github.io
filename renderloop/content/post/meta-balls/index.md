@@ -26,8 +26,8 @@ tags:
 # comment: false # Disable comment if false.
 ---
 
-**Metaballs are blobby objects that "glue togheter" when they came close. Were Invented by Jim Blinn for the 1980 documentary TV show Cosmos to represent atoms and molecules. 
-Then metaballs became a popular effect in the demoscene in the early 90s. In this article we'll see how render them in 2D.**
+**Metaballs are blobby objects that "glue togheter" when they came close. They were Invented by Jim Blinn for the 1980 documentary TV show Cosmos to represent atoms and molecules. 
+Metaballs later became a popular effect in the demoscene in the early 90s. In this article we'll see how render them in 2D.**
 
 
 {{% notice info "Info" %}}
@@ -35,7 +35,7 @@ In this page you'll find shaders written with [Shadertoy](https://shadertoy.com/
 [Read how to use the interactive content in this site](/post/howto-interactive-content).
 {{% /notice %}}
 
- If you're curious, there is a link in the References section to the original episode of <cite>Cosmos [^1]</cite> where the metaballs where used for the first time.
+ If you're curious, there is a link in the References section to the original episode of <cite>Cosmos [^1]</cite> where the metaballs were used for the first time.
 [^1]: Cosmos Ep. 2. https://youtu.be/SYpYB2f9kGk?t=2419. To give an idea what we are talking about, the following is an example implementations I made in ShaderToy:
 
 2D Metaballs |
@@ -49,8 +49,8 @@ Figure 1 show the output of the function of two variables:
 
 $$f(x,y) = \frac{1}{r}$$ 
 
-where r is the **distance from the orgin**, computed as $r=\sqrt{x^2+y^2}$. The higher values are the brighter pixels, that become darker as the distance from $(0,0)$ increase.
-The output of such function it's called a **scalar field**. 
+where r is the **distance from the orgin**, computed as $r=\sqrt{x^2+y^2}$. The higher values correspond to brighter pixels, which become darker as the distance from $(0,0)$ increases.
+The output of such a function is called a **scalar field**.
 
 <br />
 
@@ -58,20 +58,18 @@ One scalar field | The metaball |Two fields summed | The metaball
 --------|-|-|-
 ![One scalar field centered in the origin](one-charge.png) | ![The border isoline of the metaball](one-charge-isoline.png) | ![Two fields summed](two-charges.png) | ![The border isoline of the metaball](two-charges-isoline.png) 
 
-Now we can already give the definition:
+Now we can define the metaball as:
 
->*The metaball is the portion of the scalar field where its value is above a threshold.*
+>*The portion of the scalar field where its value is above a threshold.*
 
 Figure 2 shows in blue the pixels with the value of the threshold we choose, this is called an **isoline**. 
-All the pixel **inside the isolines** are the metaball.
+All the pixels **inside the isolines** are part of the metaball.
 
-**Translating** the function a bit on the left and adding another equal on its right (Figure 3), generate a scalar field that is the **sum of both**, and a new isoline.
+**Translating** the function slightly to the left and adding another one equal to it on its right (Figure 3), generate a scalar field that is the **sum of both**, and a new isoline.
 
-Moving one function respect the other will result in a countinous change of the isolines, that "glue togher" when they came close, as shown in the following shader:
+Moving one function with respect to the other will result in a countinous change of the isolines, which "glue togher" when they came close, as shown in the following shader.
 
 <p><iframe width="100%" height="360" frameborder="0" src="https://www.shadertoy.com/embed/7tGyDR?gui=true&t=10&paused=false&muted=false" allowfullscreen></iframe><p/>
-
-Changing the threshold will make the isolines "bigger" or "smaller". 
 
 <br />
 
@@ -80,9 +78,9 @@ $f(x,y) = \frac{1}{r}$ is **inversely proportional** to the distance from the or
 
 This particular funciton isn't the best choiche for some reasons:
 
-* it's $+\infty$ in the origin, so we have to **clamp** it
-* there is a **division** that is expensive (at least on old hardware :))
-* never became zero, so we have always sum up all the functions to compute the field, no matter how far
+* It's $+\infty$ in the origin, so we have to **clamp** it.
+* There is a **division** that is expensive (at least on old hardware :))
+* It never became zero, so we have always sum up all the functions to compute the field, no matter how far.
 
 The following Desmos graph shows in the falloff in one dimension, as function of the distance from the origin $r$. In *red* the previous one and in **blue** the clamped version.
 
@@ -90,15 +88,15 @@ Actually we will use the **green** one, a **cubic polynomial** $f(r) = 1-(3r^2-2
 
 <p><iframe src="https://www.desmos.com/calculator/xllx6tmhdx" width="100%" height="300" style="border: 1px solid #ccc" frameborder=0></iframe></p>
 	
-Using the cubic we can ignore functions that are farther that the falloff lenght, avoid division and any discontinuity.
+Using the cubic one we can ignore functions that are farther that the falloff lenght, avoid division and any discontinuity.
 
-The lenght of the falloff can be changed multipling the falloff argument for a value $a>0$ to increase the size of the metaballs, or $a<0$ to decrease it. (i.e. computing $f(ar)$);
+The lenght of the falloff can be changed by multipling the falloff argument by a value $a>0$ to increase the size of the metaballs, or $a<0$ to decrease it. (i.e. computing $f(ar)$);
 
 <br />
 
 ## ShaderToy code 
-Finally this is the code that implement the previous shader, you can also click on the shader title and make you experiments directly in ShaderToy, to see the result in real time. 
-I added comments that explain the code in detail.
+Finally, here is the code that implement the previous shader, you can also click on the shader title and experiment directly in ShaderToy to see the result in real time. 
+Comments have been added to explain the code in detail.
 
 ```glsl
 // This function is called for each pixel
@@ -168,7 +166,7 @@ You can even experiment changing the falloff function. And more ...
 
 <br />
 
-*This is all for the 2D metaballs, in the next article we'll se how to render 3D metaballs !!*
+*This concludes our exploration of 2D metaballs. In the next article, we'll see how to render 3D metaballs!*
 
 <script>
     document.addEventListener("DOMContentLoaded", function() {
