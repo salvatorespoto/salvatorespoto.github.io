@@ -1,5 +1,5 @@
 ---
-title: "How to use the interactive content" # Title of the blog post.
+title: "How to use the interactive content on this blog." # Title of the blog post.
 date: 2022-08-23T23:42:50+02:00 # Date of post creation.
 description: "How to use the interactive content." # Description used for search engine.
 featured: false # Sets if post is a featured post, making appear on the home page side bar.
@@ -23,18 +23,19 @@ tags:
 # comment: false # Disable comment if false.
 ---
 
-**How use the interactive content that you'll find in this website.**
+**How to use interactive content on this blog.**
 
 {{% notice info "Info" %}}
-In this page you'll find some shaders written with [Shadertoy](https://shadertoy.com/ "ShaderToy") and [Desmos](https://desmos.com/ "Desmos") graphs.
+In this short guide, we'll explore how to interact with the content on this website. Shaders will be often written with [Shadertoy](https://shadertoy.com/ "ShaderToy") and function graphs plotted with [Desmos](https://desmos.com/ "Desmos").
 {{% /notice %}}
 
 ## ShaderToy
 
-A **Shadertoy shaders** is a shader written on [Shadertoy](https://shadertoy.com/) using the GLSL language. Putting the mouse **over the shader image will show a minimial interface**. 
-Clicking on the **play button** will start the shader, if not in play state already. 
+A **Shadertoy shaders** is a shader written on [Shadertoy](https://shadertoy.com/) using the GLSL language.
+When you **hover** over the shader image, a minimal interface will apper. Clicking on the **play button** will start the shader, if it's not already in play state. 
+Some shader are interactive and respond to inputs from the mouse or the keyboard.
 
-Clicking on the **title** on the top of the shader will redirect you to a page 
+Clicking on the **title** at the top of the shader will redirect you to a page 
 where you can **modify the code in real time**. Feel free to play with all the shaders, make modifications and see the results.
 
 ![Example of the ShaderToy interface](howto-shadertoy.png)
@@ -43,12 +44,12 @@ where you can **modify the code in real time**. Feel free to play with all the s
 
 ShaderToy shader |
 --------|
-	<iframe width="100%" height="360" frameborder="0" src="https://www.shadertoy.com/embed/3d3cWN?gui=true&t=10&paused=false&muted=false" allowfullscreen></iframe>
+	<iframe title="ShaderToy Shader" width="100%" height="360" frameborder="0" marginwidth="0" marginheight="0" src="https://www.shadertoy.com/embed/3d3cWN?gui=true&t=10&paused=false&muted=false" allowfullscreen="true" style="margin-bottom:10px; margin-top:10px;"></iframe>
 	
 <br />
 
 ## Desmos
 
-A **Desmos graph**: is an interactive graph of one or more mathematical functions you can modify just rewriting them in the box on the left.
+A **Desmos graph**: is an interactive graph that plots one or more mathematical functions that you can modify b rewriting them in the box on the left.
 
 <p><iframe src="https://www.desmos.com/calculator/qblbmqu0ln" width="100%" height="300" style="border: 1px solid #ccc" frameborder=0></iframe><p/>
