@@ -3,7 +3,7 @@ title: "Rendering Metaballs in 3D" # Title of the blog post.
 date: 2022-08-23T20:28:24+02:00 # Date of post creation.
 description: "Rendering Metaballs in 3D." # Description used for search engine.
 featured: true # Sets if post is a featured post, making appear on the home page side bar.
-draft: true # Sets whether to render this page. Draft of true will not be rendered.
+draft: false # Sets whether to render this page. Draft of true will not be rendered.
 toc: false # Controls if a table of contents should be generated for first-level links automatically.
 # menu: main
 series: "Rendering Metaballs"
@@ -40,15 +40,13 @@ tags:
     });
 </script>
 
-**3D Metaballs are a valuable tool for modeling "blobby shapes", or something that should have an "organic" look. They could even be used for fake fluid simulations. 
-These are some notes on how to render Metaballs in 3D, using ray casting tecniques.**
+**3D Metaballs are a valuable tool for modeling "blobby shapes", or something that should look "organic". They could even be used for fake fluid simulations. 
+In this article, we'll explore how to render Metaballs in 3D, using ray casting tecniques.**
 
-The interesting series of videos <cite>Metaballism [^1]</cite> of *Alexander Mitzkus* shows the many uses of metaballs in 3D graphics.
+The <cite>Metaballism [^1]</cite> video series by *Alexander Mitzkus* showcases the versatility of metaballs in 3D graphics.
 
-If you don't have any idea of how to renderer metaballs, I would recommend to read the previous article in the series.
+If you're new to metaballs, it's recommended to read the previous article in the series,
 [Rendering Metaballs in 2D](/post/meta-balls).
-
-This is not an article on ray tracing, ray marching or shading, so these topics will be covered only superficially. Anyway there are a lot of explanatory comments in the linked shader code.
 
 {{% notice info "Info" %}}
 In this page you'll find some shaders written with [Shadertoy](https://shadertoy.com/ "ShaderToy"), and [Desmos](https://desmos.com/ "Desmos") graphs. 
@@ -64,25 +62,25 @@ The code in this article is took from the shader below, an implementation of **M
 <br />
 	
 # Rendering metaballs in 3D
-Although more complex than the 2D case, rendering metaballs can be done quite easily in 3D using **ray casting** tecniques. **Colors** and **shading** will add
-the perception of three-dimensionality. Animating these objects will create the effect of the blobs that continuously glue togheter and split.
+Rendering Metaballs in 3D is more complex than in 2D, but can be achieved using **ray casting** tecniques. **Colors** and **shading** enhance the perception
+of three-dimensionality, while animation creates dynamic shapes that continuously glue and split.
 
 <br />
 
 ## Isosurfaces of a 3D scalar field 
-As in 2D metaballs are isolines of a two dimensional scalar field ([read the previous article in the series](/post/meta-balls)), so:
+Similar to 2D Metaballs
 
 > **3D metaballs are isosurfaces of a three dimensional scalar field.**
 
-The field in 3D is defined as the **sum of 3D scalar functions**, each one with a certain **falloff**. The following picture shows an example where the scalar field is the sum of three of such functions: $f1, f2, f3$
-(Just imagine that they are in the 3D space :). The value of each one decreases as the points are farther from its "center".
+The field in 3D is defined as the **sum of 3D scalar functions**, each one of them has its own **falloff**. The following picture shows an example of a the scalar field that is the sum of three functions: $f1, f2, f3$
+(Just imagine that this is a section of the the 3D space :). The value of each on decreases as the points are far from its "center".
 ![The 3D scalar field](scalarfield.png) 
 
-An **isosurface** is made from **all the points that have equal value**. The next figure shows an example of isosuface (imagine that is a section in 2D :).
+An **isosurface** is made from **all the points in space that have equal value**. The next figure shows an example (imagine that is a section in 2D :).
 The isosurfaces of a value of choice, are the metaballs that will be rendered. Chosing **small values will make big metaballs**, and vice versa.
 ![Isosurface](isosurface.png) 
 
-The next code illustrates the definition of the field function. The position is the center of the function (its greatest value), while the **radius** is the lenght of the falloff.
+The following code illustrates the definition of the field function. The position is the center of the function (its greatest value), while the **radius** is the lenght of the falloff.
 In this example eight fields are defined. 
 
 ```glsl
@@ -108,7 +106,7 @@ Field fields[N_FIELDS] = Field[N_FIELDS]
 );
 ```
 
-The following snippet computes the total field, summing up all the previous functions. It uses *getFallOff()* to get the value at a specific distance from the center. 
+The following snippet computes the total field, summing up all the functions. It uses *getFallOff()* to get the value at a specific distance from the center. 
 The falloff will be defined in the following section.
 
 ```glsl
@@ -135,9 +133,8 @@ The falloff will be defined in the following section.
 <br />
 
 ## The falloff function
-In 2D a cubic polynomial has been used. Here instead it's better to choose a **quintic polynomial**:
-$$f(x) = 1 - (6x^5 - 15x^4 + 10x^3)$$
-Indeed it **has the first and second derivative equals to zero**, and thus it avoids discontinuities in the isosurfaces normals <cite>[^2]</cite> <cite>[^3]</cite>. 
+In 2D we used a cubic polynomial. In 3D instead it's better to choose the **quintic polynomial** $$f(x) = 1 - (6x^5 - 15x^4 + 10x^3)$$.
+It **has the first and second derivative equals to zero**, so we can avoids discontinuities in the isosurfaces normals <cite>[^2]</cite> <cite>[^3]</cite>. 
 
 The following graph shows a comparison of the quintic and the cubic falloffs.
 
@@ -171,11 +168,13 @@ void getFalloffDerivative(float x, out float df)
 <br />
 
 ## Ray tracing the bounding spheres
-This step is just an optimization. Due the falloff function is zero after a certain distance, it's possible to think the field as contained in bounding spheres, one for each function,
-with a radius equal to the falloff length. Ray tracing these spheres will find the bounds of the scalar field in just one step. The next picture illustrate this concept:
+Bounding spheres are used to optimize ray tracing. These spheres encapsulate the Metaballs and allow for efficient boundary detection. 
+Ray tracing determines the hit point on these bounding spheres.
+The next picture illustrate this concept:
+
 ![Ray tracint to the field bounds, then ray march till the isosurface](raycasting.png)
 
-The next snippet implements this optimization. The function **traceSphere** is available in the ShaderToy shader.
+The next snippet implements this optimization. The function **traceSphere** is defined in the ShaderToy shader.
 
 ```glsl
 // Ray trace the bounding sphere and returns the hit point (if any)
@@ -204,8 +203,8 @@ Hit rayTraceFieldBoudingSpheres(vec3 origin, vec3 dir)
 <br />
 
 ## Ray marching inside the field
-Once **reached the boundaries** of the field, **ray marching is used inside**. This means to take little steps in the ray direction and compute the field value at each step. 
-When reach the chosed isosurface value, compute the normal and the shading.
+**Ray marching** is employed inside the scalar field to locate the isosurface. By taking small steps along the ray direction, the field value is computed at each step. 
+When the desired isosurface value is reached, the normal and shading are computed.
 
 The following code illustrates the ray marching.
 
@@ -265,8 +264,8 @@ vec3 castRay(vec3 origin, vec3 dir)
 <br />
 
 ## Computing the normals
-The normals to the isosurface are equal to the **sum of each function normals**. These latter have the direction from the center of the function towards the point where we want
-to compute it, and the magnitude is equals to the derivative of the falloff function.
+The normals to the isosurface are equal to the **sum of each function normals**. All the normals have the direction from the function center to the application point.
+The magnitude is equals to the derivative of the falloff function.
 
 ```glsl
     
@@ -300,14 +299,13 @@ to compute it, and the magnitude is equals to the derivative of the falloff func
 <br />
 
 ## Rendering the metaballs
-With the normals we can finally compute the shading. I choose a quite simple shading model, anyway it take into account diffuse, specular and fresnel contributions.
-You can find the rendering code in the shader, in the *render()* function.
+Shading is applied to the Metaballs using a simple shading model that considers diffuse, specular, and Fresnel contributions.
+The shading is implemented in the *render()* function.
 
 <br />
 
 ## Animating the metaballs
-Finally moving around the functions that generate the field will animate the metaballs. The total field **changes its shape over time**, and the blobby
-objects glue and split continuously.
+Animating Metaballs involves changing the positions of the functions that generate the field over time. This animation creates **dynamic, evolving shapes**.
 
 ```glsl
 // Update the position of the objects in the scene
@@ -327,9 +325,9 @@ void updateField()
 <br />
 
 ## Experimenting with it
-That's it. From now on I think a lot of experiments can be done. For example the function that generate the field can be anything, although enough smooth.
-In the following shader I added a field generated from a plane. The falloff decrease with the distance from the plane, and this adds a different behaviour. The final
-effect is that the balls are drenched inside it.
+With the basics covered, there are endless possibilities for experimentation. 
+For example, different functions can be used to generate the field, leading to unique visual effects. 
+The provided ShaderToy shader includes additional features, such as a field generated from a plane, for further exploration.
 
 <iframe width="100%" height="400" frameborder="0" src="https://www.shadertoy.com/embed/NttyRs?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
 	
@@ -338,7 +336,7 @@ effect is that the balls are drenched inside it.
 <br />
 <br />
 	
-*That's it. See you next time !!!*
+*That concludes our guide to rendering 3D Metaballs using ray casting techniques. Experiment with the provided shaders and explore the creative possibilities of Metaballs in 3D graphics.*
 
 [^1]: Metaballism Ep. 1. https://www.youtube.com/watch?v=PP14rVhgX9M.
 [^2]: Ryan Geiss "Guide to Metaballs" http://www.geisswerks.com/ryan/BLOBS/blobs.html
