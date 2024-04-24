@@ -2,193 +2,193 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://salvatorespoto.github.io/</loc>
     <lastmod>2022-03-24T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:1313/pt/"
+                href="https://salvatorespoto.github.io/pt/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/"
+                href="https://salvatorespoto.github.io/"
                 />
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://salvatorespoto.github.io/categories/</loc>
     <lastmod>2022-03-24T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:1313/pt/categories/"
+                href="https://salvatorespoto.github.io/pt/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/categories/"
+                href="https://salvatorespoto.github.io/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/hugo/</loc>
+    <loc>https://salvatorespoto.github.io/tags/hugo/</loc>
     <lastmod>2022-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/index/</loc>
+    <loc>https://salvatorespoto.github.io/tags/index/</loc>
     <lastmod>2022-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/</loc>
+    <loc>https://salvatorespoto.github.io/post/</loc>
     <lastmod>2022-03-24T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:1313/pt/post/"
+                href="https://salvatorespoto.github.io/pt/post/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/post/"
+                href="https://salvatorespoto.github.io/post/"
                 />
   </url><url>
-    <loc>http://localhost:1313/series/</loc>
+    <loc>https://salvatorespoto.github.io/series/</loc>
     <lastmod>2022-03-24T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:1313/pt/series/"
+                href="https://salvatorespoto.github.io/pt/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/series/"
+                href="https://salvatorespoto.github.io/series/"
                 />
   </url><url>
-    <loc>http://localhost:1313/categories/syntax/</loc>
+    <loc>https://salvatorespoto.github.io/categories/syntax/</loc>
     <lastmod>2022-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://salvatorespoto.github.io/tags/</loc>
     <lastmod>2022-03-24T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:1313/pt/tags/"
+                href="https://salvatorespoto.github.io/pt/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/"
+                href="https://salvatorespoto.github.io/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/series/themes-guide/</loc>
+    <loc>https://salvatorespoto.github.io/series/themes-guide/</loc>
     <lastmod>2022-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/bundle/</loc>
+    <loc>https://salvatorespoto.github.io/post/bundle/</loc>
     <lastmod>2022-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/map/</loc>
+    <loc>https://salvatorespoto.github.io/post/map/</loc>
     <lastmod>2022-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/notices/</loc>
+    <loc>https://salvatorespoto.github.io/post/notices/</loc>
     <lastmod>2021-08-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>https://salvatorespoto.github.io/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/css/</loc>
+    <loc>https://salvatorespoto.github.io/tags/css/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:1313/pt/tags/css/"
+                href="https://salvatorespoto.github.io/pt/tags/css/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/css/"
+                href="https://salvatorespoto.github.io/tags/css/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/featured/</loc>
+    <loc>https://salvatorespoto.github.io/tags/featured/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/html/</loc>
+    <loc>https://salvatorespoto.github.io/tags/html/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:1313/pt/tags/html/"
+                href="https://salvatorespoto.github.io/pt/tags/html/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/html/"
+                href="https://salvatorespoto.github.io/tags/html/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/markdown/</loc>
+    <loc>https://salvatorespoto.github.io/tags/markdown/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:1313/pt/tags/markdown/"
+                href="https://salvatorespoto.github.io/pt/tags/markdown/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/markdown/"
+                href="https://salvatorespoto.github.io/tags/markdown/"
                 />
   </url><url>
-    <loc>http://localhost:1313/post/markdown-syntax/</loc>
+    <loc>https://salvatorespoto.github.io/post/markdown-syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:1313/pt/post/markdown-syntax/"
+                href="https://salvatorespoto.github.io/pt/post/markdown-syntax/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/post/markdown-syntax/"
+                href="https://salvatorespoto.github.io/post/markdown-syntax/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/themes/</loc>
+    <loc>https://salvatorespoto.github.io/tags/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/themes/</loc>
+    <loc>https://salvatorespoto.github.io/categories/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/privacy/</loc>
+    <loc>https://salvatorespoto.github.io/tags/privacy/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/rich-content/</loc>
+    <loc>https://salvatorespoto.github.io/post/rich-content/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/shortcodes/</loc>
+    <loc>https://salvatorespoto.github.io/tags/shortcodes/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/placeholder-text/</loc>
+    <loc>https://salvatorespoto.github.io/post/placeholder-text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/text/</loc>
+    <loc>https://salvatorespoto.github.io/tags/text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/math-typesetting/</loc>
+    <loc>https://salvatorespoto.github.io/post/math-typesetting/</loc>
     <lastmod>2019-03-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/emoji/</loc>
+    <loc>https://salvatorespoto.github.io/tags/emoji/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/emoji-support/</loc>
+    <loc>https://salvatorespoto.github.io/post/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://salvatorespoto.github.io/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="http://localhost:1313/pt/about/"
+                href="https://salvatorespoto.github.io/pt/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/about/"
+                href="https://salvatorespoto.github.io/about/"
                 />
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>https://salvatorespoto.github.io/search/</loc>
   </url>
 </urlset>
