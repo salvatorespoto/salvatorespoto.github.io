@@ -1,0 +1,41 @@
+[Manage Indirect Interaction] https://app.asana.com/0/1205421419715344/1204560852027613/f
+
+* Add a parameter to specify an optional instigator when an explosion is triggered.
+  This could be used by each Actor with an ExplosiveComponent to implement its own gameplay logic. 
+  The Actor chooses to propagate its same instigator or a different one.
+  
+* Remove the ExplosionInstigator property from ExplosionComponent that is no longer used
+
+* Remove the property bInstigatorCarDamageResponsibility that is no longer used. Now any destructible actor propagate the instigator Car.
+  
+* Implement game logics for Actors with ExplosiveComponent:
+ 
+  - A T4DestructibleActor propagates its instigator. A derived actor could override this behaviour if needed.
+	
+  - The instigator of an exploding T4Projectile is its owner.
+  
+  - When a AT4WastedStickyPawn is shooted and explodes, then the explosion instigator is the shooter.
+  
+  - When a AT4WastedSirenPawn triggers an explosion as attack the instigator is the siren itself.
+  
+  - When a AT4WastedBoomerPawn explodes:
+    - If performing an Attack the instigator is the boomer itself.
+	- If shooted, the instigator is the player or AI who shooted it.
+	
+  - When a Car explodes because shooted, the instigator is the shooter.
+  
+   Each rule build the instigator chain in the gameplay scenario. 
+   
+   E.g. in the sequence: 
+	[Car1 (player or AI) fires a projectile or explosive missile] 
+	 -> [Boomer explode] 
+	 -> [Explosive barrel] 
+	 -> [Boomer explode] 
+	 -> [Explosive barrel] 
+	 -> [Car2 die and explodes] 
+	 -> [any Actor with a TargetComponent]
+		
+	The damage instigator stored in the TargetComponent of all the barrels, Boomers, Car2 and in the final Actor will be Car1.
+	
+
+A Boomer does a strange death when touched from a car do not explode
