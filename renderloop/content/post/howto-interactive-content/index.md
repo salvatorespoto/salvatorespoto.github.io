@@ -1,6 +1,6 @@
 ---
 title: "How to use the interactive content on this blog." # Title of the blog post.
-date: 2022-08-23T23:42:50+02:00 # Date of post creation.
+date: 2022-08-19T23:42:50+02:00 # Date of post creation.
 description: "How to use the interactive content." # Description used for search engine.
 featured: false # Sets if post is a featured post, making appear on the home page side bar.
 draft: false # Sets whether to render this page. Draft of true will not be rendered.
