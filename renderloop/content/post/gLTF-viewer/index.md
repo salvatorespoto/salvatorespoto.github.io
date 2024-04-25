@@ -25,18 +25,16 @@ tags:
 
 ### A viewer of the glTF file format, implemented in DirectX 12 and C++.
 
-Here's a viewer for the glTF file format, built using DirectX 12 and C++. I wrote this software to explore the **DirectX 12 API**. 
-**glTF** is a standard file format for three-dimensional scenes and models.
+Here's the <a href="https://github.com/salvatorespoto/gLTFViewer"> GitHub Repository </a> of a Viewer for **glTF** files, made in **C++** and **DirectX 12**. I wrote this software to explore the DirectX 12 API. 
 
-A the following link there are the [glTF specification](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0) from the **Khronos Group**. 
+**glTF** is a standard file format for three-dimensional scenes and models, the [specification](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0) are from the **Khronos Group**. 
 
 The glTFViewer can **edit** the **vertex**, **geometry** and **fragment shaders on the fly**.
-
 The video below shows the application in action:
 
 {{< youtube tEVuwpKdP4A >}}
 
-The glTF format includes many features, but this viewer only supports some of them.
+The specifications describe many features, but this viewer only supports some of them.
 
 #### Current supported features:
 
