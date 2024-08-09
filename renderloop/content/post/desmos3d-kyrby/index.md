@@ -23,7 +23,7 @@ tags:
 # comment: false # Disable comment if false.
 ---
 
-### 3D Modelins with Math for Fun ++.
+### 3D Modelins with Math for Fun.
 Desmos recently added 3D graphing functionalities, so I had fun modeling Kirby with some stars around him. 
 This was obviously inspired by the incredible work of [Inigo Quilez](https://iquilezles.org), who is renowned for his exceptional math modeling, 
 especially on Shadertoy. You can check out an example of his amazing work [here](https://www.youtube.com/watch?v=8--5LwHRhjk).
