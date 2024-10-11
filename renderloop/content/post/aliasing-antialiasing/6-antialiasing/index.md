@@ -72,12 +72,7 @@ The ShaderToy example alternates between a scene with TAA enabled and one withou
 An example in Shadertoy of TAA|
 --------|
 	<iframe width="100%" height="460" frameborder="0" src="https://www.shadertoy.com/embed/st3yRN?gui=true&amp;t=10&amp;paused=false&amp;muted=false" allowfullscreen=""></iframe>
-
-
-And these notes end here. It was just a brief journey into the realm of aliasing. Hope you enjoyed it, see you!
-
 	
 <br />
 
-
-*That's it for now. See you next time !!!*
+*And these notes end here. It was just a brief journey into the realm of aliasing. Hope you enjoyed it, see you!*

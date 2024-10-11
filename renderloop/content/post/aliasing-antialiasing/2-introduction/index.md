@@ -69,7 +69,10 @@ which can be easily loaded into a computer memory or saved on a storage. Samplin
 ![The circles are the discrete samples of the continuous time signal](exampleSampling.png)
 
 As another example, sampling the previous checkboard pattern, we get an image made of pixels, that is a discrete representation of the function we have seen before.
-![This image is a discrete sampling of the function $ f(x,y) = (\lfloor {x} \rfloor + \lfloor {y} \rfloor) \bmod 2 $](exampleSampling2D.png)
+
+<div align="center">
+<img src="exampleSampling2D.png" alt="This image is a discrete sampling of the function $ f(x,y) = (\lfloor {x} \rfloor + \lfloor {y} \rfloor) \bmod 2 $" width="600">
+</div>
 
 <br />
 
@@ -99,7 +102,9 @@ to name a few.
 
 The following figure shows a raytrace image without any anti-aliasing on the left, and with the SuperSampling anti aliasing on the right.
 
-![On the left: a ray traced scene without Anti-Aliasing, the image shows a lot of artifact. On the right: the same scene with Anti-Aliasing, many artifacts disappeared.](exampleAntiAlias.png)
+<div align="center">
+<img src="exampleAntiAlias.png" alt="On the left: a ray traced scene without Anti-Aliasing, the image shows a lot of artifact. On the right: the same scene with Anti-Aliasing, many artifacts disappeared." width="800">
+</div>
 
 <br />
 	
