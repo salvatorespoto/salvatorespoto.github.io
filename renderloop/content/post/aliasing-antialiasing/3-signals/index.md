@@ -4,7 +4,7 @@ date: 2024-09-12T20:28:24+02:00 # Date of post creation.
 description: "Signal Processing in Computer Graphics: Signals." # Description used for search engine.
 featured: false # Sets if post is a featured post, making appear on the home page side bar.
 draft: false # Sets whether to render this page. Draft of true will not be rendered.
-toc: false # Controls if a table of contents should be generated for first-level links automatically.
+toc: true # Controls if a table of contents should be generated for first-level links automatically.
 # menu: main
 series: "Signal Processing in Computer Graphics"
 usePageBundles: true # Set to true to group assets like images in the same folder as this post.
