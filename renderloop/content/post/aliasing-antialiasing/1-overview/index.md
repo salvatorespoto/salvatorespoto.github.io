@@ -1,9 +1,9 @@
 ---
 title: "Signal Processing in Computer Graphics #1: Overview" # Title of the blog post.
-date: 2022-09-12T20:28:24+02:00 # Date of post creation.
+date: 2024-09-10T20:28:24+02:00 # Date of post creation.
 description: "Signal Processing in Computer Graphic: Overview." # Description used for search engine.
 featured: true # Sets if post is a featured post, making appear on the home page side bar.
-draft: true # Sets whether to render this page. Draft of true will not be rendered.
+draft: false # Sets whether to render this page. Draft of true will not be rendered.
 toc: false # Controls if a table of contents should be generated for first-level links automatically.
 # menu: main
 series: "Signal Processing in Computer Graphics"
