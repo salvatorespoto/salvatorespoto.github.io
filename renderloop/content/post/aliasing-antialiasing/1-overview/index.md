@@ -40,9 +40,8 @@ tags:
     });
 </script>
 
-Rendering an image is basically a **sampling process**: a continuous image, described with its geometry, colors, and lighting, 
-has to be sampled and turned into pixels on the screen. These notes are a quick intro to signal processing and how it works in computer graphics. 
-We’ll go through signals, sampling, filtering, and then talk about some anti-aliasing algorithms, including an example on ShaderToy.
+Rendering an image is basically a sampling process: a continuous image, with its geometry, colors, and lighting, has to be sampled and turned into pixels on the screen. 
+These brief notes are a quick intro to signal processing, focusing on aliasing and some algorithms to reduce it.
 
 * [Introduction](/post/aliasing-antialiasing/2-introduction)
 * [Signals](/post/aliasing-antialiasing/3-signals)
