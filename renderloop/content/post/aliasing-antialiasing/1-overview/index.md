@@ -42,7 +42,7 @@ tags:
 
 Rendering an image is essentially a sampling process: a continuous image, with its geometry, colors, and lighting, needs to be sampled and converted into pixels on the screen. 
 These brief notes provide a quick introduction to signal processing, filtering, and aliasing. 
-In the final chapter, there are some [ShaderToy](www.ShaderToy.com) examples that demonstrate some anti-aliasing algorithms.
+In the final chapter, there are some [ShaderToy](https://www.shadertoy.com) examples that demonstrate some anti-aliasing algorithms.
 
 * [Introduction](/post/aliasing-antialiasing/2-introduction)
 * [Signals](/post/aliasing-antialiasing/3-signals)
