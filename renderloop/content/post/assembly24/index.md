@@ -24,11 +24,6 @@ tags:
 # comment: false # Disable comment if false.
 ---
 
-{{% notice info "Info" %}}
-On this page you'll find shaders written in [Shadertoy](https://shadertoy.com/ "ShaderToy") and functions graph made in [Desmos](https://desmos.com/ "Desmos"). 
-[Read about use the interactive content in this site](/post/howto-interactive-content)
-{{% /notice %}}
-
 **Assembly Summer '24** has come and gone, and I had the great joy of seeing my little 1k intro on the big screen and see some living legends of the Demoscene.
 
 I also took **3rd place** in the compo, which isn't bad at all.
@@ -45,6 +40,11 @@ CubeSink |
 	
 
 *See you next year with more incredible demos, Assembly!*
+
+{{% notice info "Info" %}}
+On this page you'll find shaders written in [Shadertoy](https://shadertoy.com/ "ShaderToy") and functions graph made in [Desmos](https://desmos.com/ "Desmos"). 
+[Read about use the interactive content in this site](/post/howto-interactive-content)
+{{% /notice %}}
 
 <script>
     document.addEventListener("DOMContentLoaded", function() {
