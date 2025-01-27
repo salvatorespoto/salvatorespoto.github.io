@@ -91,7 +91,7 @@ To keep things simple, in the current example we avoid DXGI to enumerate all the
 Creating the DXGI Factory provides another example example of how COM objects are commonly used:
 
 ```cpp
-Com<IDXGIFactory6*> dxgiFactory; 
+Com<IDXGIFactory6> dxgiFactory; 
 CreateDXGIFactory2(DXGI_CREATE_FACTORY_DEBUG, IID_PPV_ARGS(&dxgiFactory));
 ```
 
