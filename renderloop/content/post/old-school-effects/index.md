@@ -2,7 +2,7 @@
 title: "Nostalgia: old schoold demoscene effects in Shadertoy" # Title of the blog post.
 date: 2025-02-01T20:28:24+02:00 # Date of post creation.
 description: "Old schoold demoscene effects in Shadertoy." # Description used for search engine.
-featured: true # Sets if post is a featured post, making appear on the home page side bar.
+featured: false # Sets if post is a featured post, making appear on the home page side bar.
 draft: false # Sets whether to render this page. Draft of true will not be rendered.
 toc: false # Controls if a table of contents should be generated for first-level links automatically.
 # menu: main
@@ -11,7 +11,7 @@ featureImage: "" # Sets featured image on blog post.
 featureImageAlt: '' # Alternative text for featured image.
 featureImageCap: 'This is the featured image.' # Caption (optional).
 thumbnail: "thumbnail.png" # Sets thumbnail image appearing inside card on homepage.
-# shareImage: "thumbnail.png" # Designate a separate image for social media sharing.
+shareImage: "thumbnail.png" # Designate a separate image for social media sharing.
 codeMaxLines: 10 # Override global value for how many lines within a code block before auto-collapsing.
 codeLineNumbers: false # Override global value for showing of line numbers within code block.
 figurePositionShow: true # Override global value for showing the figure label.
