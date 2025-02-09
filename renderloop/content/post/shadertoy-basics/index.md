@@ -97,10 +97,10 @@ void mainImage( out vec4 fragColor, in vec2 fragCoord )
 <iframe width="100%" height="360" frameborder="0" src="https://www.shadertoy.com/embed/3lKXDR?gui=true&t=10&paused=false&muted=false" allowfullscreen></iframe>
 <br/><br/><br/>
 
-## Draw a Point  
-The most basic of all drawings: a point— and not even an antialiased one! For the antialiased version, use **smoothstep** instead of **step**.
+## Draw a Circle  
+The most basic of all drawings: a circle and not even an antialiased one! For the antialiased version, use **smoothstep** instead of **step**.
 ```glsl
-// Draw a circular point P with a radius of r
+// Draw a circle P with a radius of r
 #define drawPoint(P, r) step( length(U - P), r)
 
 void mainImage( out vec4 fragColor, in vec2 fragCoord )
